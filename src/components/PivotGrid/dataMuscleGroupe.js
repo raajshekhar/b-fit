@@ -4,6 +4,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 1740,
+  'repos': 45,
   'date': new Date('2013-01-06')
 }, {
   'id': 10249,
@@ -11,6 +12,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 850,
+  'repos': 45,
   'date': new Date('2013-01-13')
 }, {
   'id': 10250,
@@ -18,6 +20,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 2235,
+  'repos': 45,
   'date': new Date('2013-01-07')
 }, {
   'id': 10251,
@@ -25,6 +28,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 1965,
+  'repos': 45,
   'date': new Date('2013-01-03')
 }, {
   'id': 10252,
@@ -32,6 +36,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 880,
+  'repos': 45,
   'date': new Date('2013-01-10')
 }, {
   'id': 10253,
@@ -39,6 +44,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 5260,
+  'repos': 45,
   'date': new Date('2013-01-17')
 }, {
   'id': 10254,
@@ -46,6 +52,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 2790,
+  'repos': 45,
   'date': new Date('2013-01-21')
 }, {
   'id': 10255,
@@ -53,6 +60,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 3140,
+  'repos': 45,
   'date': new Date('2013-01-01')
 }, {
   'id': 10256,
@@ -60,6 +68,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 6175,
+  'repos': 45,
   'date': new Date('2013-01-24')
 }, {
   'id': 10257,
@@ -67,6 +76,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 4575,
+  'repos': 45,
   'date': new Date('2013-01-11')
 }, {
   'id': 10258,
@@ -74,6 +84,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 3680,
+  'repos': 45,
   'date': new Date('2013-01-12')
 }, {
   'id': 10259,
@@ -81,6 +92,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 2260,
+  'repos': 45,
   'date': new Date('2013-01-01')
 }, {
   'id': 10260,
@@ -88,6 +100,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 2910,
+  'repos': 45,
   'date': new Date('2013-01-26')
 }, {
   'id': 10261,
@@ -95,6 +108,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 8400,
+  'repos': 45,
   'date': new Date('2013-01-05')
 }, {
   'id': 10262,
@@ -102,6 +116,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 1325,
+  'repos': 45,
   'date': new Date('2013-01-14')
 }, {
   'id': 10265,
@@ -109,6 +124,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 940,
+  'repos': 45,
   'date': new Date('2013-01-01')
 }, {
   'id': 10266,
@@ -116,6 +132,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1630,
+  'repos': 45,
   'date': new Date('2013-01-10')
 }, {
   'id': 10267,
@@ -123,6 +140,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 2910,
+  'repos': 45,
   'date': new Date('2013-01-23')
 }, {
   'id': 10268,
@@ -130,6 +148,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 2600,
+  'repos': 45,
   'date': new Date('2013-01-14')
 }, {
   'id': 10269,
@@ -137,6 +156,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 4340,
+  'repos': 45,
   'date': new Date('2013-01-26')
 }, {
   'id': 10270,
@@ -144,6 +164,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 6650,
+  'repos': 45,
   'date': new Date('2013-01-24')
 }, {
   'id': 10271,
@@ -151,6 +172,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 490,
+  'repos': 45,
   'date': new Date('2013-01-22')
 }, {
   'id': 10272,
@@ -158,6 +180,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 3390,
+  'repos': 45,
   'date': new Date('2013-01-25')
 }, {
   'id': 10273,
@@ -165,6 +188,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 5160,
+  'repos': 45,
   'date': new Date('2013-02-20')
 }, {
   'id': 10274,
@@ -172,6 +196,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 5750,
+  'repos': 45,
   'date': new Date('2013-02-12')
 }, {
   'id': 10275,
@@ -179,6 +204,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 2805,
+  'repos': 45,
   'date': new Date('2013-02-13')
 }, {
   'id': 10276,
@@ -186,6 +212,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 2505,
+  'repos': 45,
   'date': new Date('2013-02-09')
 }, {
   'id': 10277,
@@ -193,6 +220,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 930,
+  'repos': 45,
   'date': new Date('2013-02-04')
 }, {
   'id': 10278,
@@ -200,6 +228,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 1240,
+  'repos': 45,
   'date': new Date('2013-02-03')
 }, {
   'id': 10279,
@@ -207,6 +236,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 315,
+  'repos': 45,
   'date': new Date('2013-02-04')
 }, {
   'id': 10280,
@@ -214,6 +244,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 2870,
+  'repos': 45,
   'date': new Date('2013-02-18')
 }, {
   'id': 10281,
@@ -221,6 +252,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 5150,
+  'repos': 45,
   'date': new Date('2013-02-18')
 }, {
   'id': 10282,
@@ -228,6 +260,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 2725,
+  'repos': 45,
   'date': new Date('2013-02-20')
 }, {
   'id': 10283,
@@ -235,6 +268,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 2840,
+  'repos': 45,
   'date': new Date('2013-02-04')
 }, {
   'id': 10284,
@@ -242,6 +276,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 5840,
+  'repos': 45,
   'date': new Date('2013-02-13')
 }, {
   'id': 10285,
@@ -249,6 +284,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 6750,
+  'repos': 45,
   'date': new Date('2013-02-11')
 }, {
   'id': 10286,
@@ -256,6 +292,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 1200,
+  'repos': 45,
   'date': new Date('2013-02-03')
 }, {
   'id': 10287,
@@ -263,6 +300,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 4550,
+  'repos': 45,
   'date': new Date('2013-02-08')
 }, {
   'id': 10290,
@@ -270,6 +308,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 990,
+  'repos': 45,
   'date': new Date('2013-02-20')
 }, {
   'id': 10291,
@@ -277,6 +316,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 700,
+  'repos': 45,
   'date': new Date('2013-02-11')
 }, {
   'id': 10293,
@@ -284,6 +324,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 930,
+  'repos': 45,
   'date': new Date('2013-02-21')
 }, {
   'id': 10294,
@@ -291,6 +332,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 1560,
+  'repos': 45,
   'date': new Date('2013-02-04')
 }, {
   'id': 10295,
@@ -298,6 +340,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 1740,
+  'repos': 45,
   'date': new Date('2013-03-04')
 }, {
   'id': 10296,
@@ -305,6 +348,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 3575,
+  'repos': 45,
   'date': new Date('2013-03-20')
 }, {
   'id': 10297,
@@ -312,6 +356,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 4500,
+  'repos': 45,
   'date': new Date('2013-03-04')
 }, {
   'id': 10298,
@@ -319,6 +364,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 1605,
+  'repos': 45,
   'date': new Date('2013-03-17')
 }, {
   'id': 10299,
@@ -326,6 +372,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 800,
+  'repos': 45,
   'date': new Date('2013-03-21')
 }, {
   'id': 10300,
@@ -333,6 +380,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 640,
+  'repos': 45,
   'date': new Date('2013-03-08')
 }, {
   'id': 10301,
@@ -340,6 +388,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 735,
+  'repos': 45,
   'date': new Date('2013-03-19')
 }, {
   'id': 10302,
@@ -347,6 +396,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 2520,
+  'repos': 45,
   'date': new Date('2013-03-20')
 }, {
   'id': 10303,
@@ -354,6 +404,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 6675,
+  'repos': 45,
   'date': new Date('2013-03-18')
 }, {
   'id': 10304,
@@ -361,6 +412,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 3625,
+  'repos': 45,
   'date': new Date('2013-03-25')
 }, {
   'id': 10305,
@@ -368,6 +420,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 1200,
+  'repos': 45,
   'date': new Date('2013-03-07')
 }, {
   'id': 10306,
@@ -375,6 +428,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 2000,
+  'repos': 45,
   'date': new Date('2013-03-07')
 }, {
   'id': 10307,
@@ -382,6 +436,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 1410,
+  'repos': 45,
   'date': new Date('2013-03-10')
 }, {
   'id': 10308,
@@ -389,6 +444,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 2700,
+  'repos': 45,
   'date': new Date('2013-03-19')
 }, {
   'id': 10309,
@@ -396,6 +452,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 5950,
+  'repos': 45,
   'date': new Date('2013-03-24')
 }, {
   'id': 10312,
@@ -403,6 +460,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 1110,
+  'repos': 45,
   'date': new Date('2013-03-08')
 }, {
   'id': 10313,
@@ -410,6 +468,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 980,
+  'repos': 45,
   'date': new Date('2013-03-21')
 }, {
   'id': 10315,
@@ -417,6 +476,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 3800,
+  'repos': 45,
   'date': new Date('2013-03-12')
 }, {
   'id': 10317,
@@ -424,6 +484,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 3080,
+  'repos': 45,
   'date': new Date('2013-03-22')
 }, {
   'id': 10318,
@@ -431,6 +492,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 2010,
+  'repos': 45,
   'date': new Date('2013-03-23')
 }, {
   'id': 10319,
@@ -438,6 +500,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 1200,
+  'repos': 45,
   'date': new Date('2013-03-04')
 }, {
   'id': 10320,
@@ -445,6 +508,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 7680,
+  'repos': 45,
   'date': new Date('2013-04-15')
 }, {
   'id': 10321,
@@ -452,6 +516,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 1325,
+  'repos': 45,
   'date': new Date('2013-04-07')
 }, {
   'id': 10322,
@@ -459,6 +524,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 2835,
+  'repos': 45,
   'date': new Date('2013-04-10')
 }, {
   'id': 10323,
@@ -466,6 +532,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 3660,
+  'repos': 45,
   'date': new Date('2013-04-10')
 }, {
   'id': 10324,
@@ -473,6 +540,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2013-04-12')
 }, {
   'id': 10325,
@@ -480,6 +548,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 4420,
+  'repos': 45,
   'date': new Date('2013-04-08')
 }, {
   'id': 10326,
@@ -487,6 +556,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 1755,
+  'repos': 45,
   'date': new Date('2013-04-13')
 }, {
   'id': 10327,
@@ -494,6 +564,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 2580,
+  'repos': 45,
   'date': new Date('2013-04-15')
 }, {
   'id': 10328,
@@ -501,6 +572,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 850,
+  'repos': 45,
   'date': new Date('2013-04-01')
 }, {
   'id': 10329,
@@ -508,6 +580,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 2825,
+  'repos': 45,
   'date': new Date('2013-04-10')
 }, {
   'id': 10330,
@@ -515,6 +588,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 540,
+  'repos': 45,
   'date': new Date('2013-04-06')
 }, {
   'id': 10331,
@@ -522,6 +596,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 1520,
+  'repos': 45,
   'date': new Date('2013-04-08')
 }, {
   'id': 10332,
@@ -529,6 +604,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 8760,
+  'repos': 45,
   'date': new Date('2013-04-26')
 }, {
   'id': 10333,
@@ -536,6 +612,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 1110,
+  'repos': 45,
   'date': new Date('2013-04-16')
 }, {
   'id': 10334,
@@ -543,6 +620,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 6850,
+  'repos': 45,
   'date': new Date('2013-04-19')
 }, {
   'id': 10337,
@@ -550,6 +628,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 3090,
+  'repos': 45,
   'date': new Date('2013-04-03')
 }, {
   'id': 10338,
@@ -557,6 +636,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1640,
+  'repos': 45,
   'date': new Date('2013-04-24')
 }, {
   'id': 10340,
@@ -564,6 +644,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 1770,
+  'repos': 45,
   'date': new Date('2013-04-01')
 }, {
   'id': 10342,
@@ -571,6 +652,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 2870,
+  'repos': 45,
   'date': new Date('2013-04-02')
 }, {
   'id': 10343,
@@ -578,6 +660,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 960,
+  'repos': 45,
   'date': new Date('2013-04-20')
 }, {
   'id': 10344,
@@ -585,6 +668,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 8640,
+  'repos': 45,
   'date': new Date('2013-05-14')
 }, {
   'id': 10345,
@@ -592,6 +676,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 5450,
+  'repos': 45,
   'date': new Date('2013-05-24')
 }, {
   'id': 10346,
@@ -599,6 +684,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 2535,
+  'repos': 45,
   'date': new Date('2013-05-07')
 }, {
   'id': 10347,
@@ -606,6 +692,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 1155,
+  'repos': 45,
   'date': new Date('2013-05-20')
 }, {
   'id': 10348,
@@ -613,6 +700,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 3140,
+  'repos': 45,
   'date': new Date('2013-05-18')
 }, {
   'id': 10349,
@@ -620,6 +708,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 2260,
+  'repos': 45,
   'date': new Date('2013-05-19')
 }, {
   'id': 10350,
@@ -627,6 +716,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 1215,
+  'repos': 45,
   'date': new Date('2013-05-23')
 }, {
   'id': 10351,
@@ -634,6 +724,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 1210,
+  'repos': 45,
   'date': new Date('2013-05-08')
 }, {
   'id': 10352,
@@ -641,6 +732,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 875,
+  'repos': 45,
   'date': new Date('2013-05-25')
 }, {
   'id': 10353,
@@ -648,6 +740,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 5400,
+  'repos': 45,
   'date': new Date('2013-05-03')
 }, {
   'id': 10354,
@@ -655,6 +748,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 5940,
+  'repos': 45,
   'date': new Date('2013-05-25')
 }, {
   'id': 10355,
@@ -662,6 +756,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 4700,
+  'repos': 45,
   'date': new Date('2013-05-03')
 }, {
   'id': 10356,
@@ -669,6 +764,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 5520,
+  'repos': 45,
   'date': new Date('2013-05-12')
 }, {
   'id': 10357,
@@ -676,6 +772,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 9210,
+  'repos': 45,
   'date': new Date('2013-05-22')
 }, {
   'id': 10358,
@@ -683,6 +780,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 7950,
+  'repos': 45,
   'date': new Date('2013-05-12')
 }, {
   'id': 10361,
@@ -690,6 +788,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 3190,
+  'repos': 45,
   'date': new Date('2013-05-03')
 }, {
   'id': 10362,
@@ -697,6 +796,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 2430,
+  'repos': 45,
   'date': new Date('2013-05-11')
 }, {
   'id': 10363,
@@ -704,6 +804,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 7380,
+  'repos': 45,
   'date': new Date('2013-06-15')
 }, {
   'id': 10364,
@@ -711,6 +812,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 4475,
+  'repos': 45,
   'date': new Date('2013-06-08')
 }, {
   'id': 10365,
@@ -718,6 +820,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 1290,
+  'repos': 45,
   'date': new Date('2013-06-10')
 }, {
   'id': 10366,
@@ -725,6 +828,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2013-06-10')
 }, {
   'id': 10367,
@@ -732,6 +836,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 350,
+  'repos': 45,
   'date': new Date('2013-06-22')
 }, {
   'id': 10368,
@@ -739,6 +844,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 5480,
+  'repos': 45,
   'date': new Date('2013-06-24')
 }, {
   'id': 10369,
@@ -746,6 +852,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 2355,
+  'repos': 45,
   'date': new Date('2013-06-10')
 }, {
   'id': 10370,
@@ -753,6 +860,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 1960,
+  'repos': 45,
   'date': new Date('2013-06-23')
 }, {
   'id': 10371,
@@ -760,6 +868,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 4125,
+  'repos': 45,
   'date': new Date('2013-06-06')
 }, {
   'id': 10372,
@@ -767,6 +876,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 7925,
+  'repos': 45,
   'date': new Date('2013-06-12')
 }, {
   'id': 10373,
@@ -774,6 +884,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 1120,
+  'repos': 45,
   'date': new Date('2013-06-22')
 }, {
   'id': 10374,
@@ -781,6 +892,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 5100,
+  'repos': 45,
   'date': new Date('2013-06-01')
 }, {
   'id': 10375,
@@ -788,6 +900,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 1500,
+  'repos': 45,
   'date': new Date('2013-06-25')
 }, {
   'id': 10376,
@@ -795,6 +908,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 5130,
+  'repos': 45,
   'date': new Date('2013-06-10')
 }, {
   'id': 10377,
@@ -802,6 +916,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 2475,
+  'repos': 45,
   'date': new Date('2013-06-10')
 }, {
   'id': 10380,
@@ -809,6 +924,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 550,
+  'repos': 45,
   'date': new Date('2013-06-02')
 }, {
   'id': 10381,
@@ -816,6 +932,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 2850,
+  'repos': 45,
   'date': new Date('2013-06-26')
 }, {
   'id': 10382,
@@ -823,6 +940,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 4280,
+  'repos': 45,
   'date': new Date('2013-06-19')
 }, {
   'id': 10384,
@@ -830,6 +948,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 960,
+  'repos': 45,
   'date': new Date('2013-06-17')
 }, {
   'id': 10385,
@@ -837,6 +956,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1520,
+  'repos': 45,
   'date': new Date('2013-06-03')
 }, {
   'id': 10386,
@@ -844,6 +964,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 6750,
+  'repos': 45,
   'date': new Date('2013-06-21')
 }, {
   'id': 10387,
@@ -851,6 +972,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 7260,
+  'repos': 45,
   'date': new Date('2013-07-14')
 }, {
   'id': 10388,
@@ -858,6 +980,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 2450,
+  'repos': 45,
   'date': new Date('2013-07-11')
 }, {
   'id': 10389,
@@ -865,6 +988,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 3540,
+  'repos': 45,
   'date': new Date('2013-07-02')
 }, {
   'id': 10390,
@@ -872,6 +996,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 1950,
+  'repos': 45,
   'date': new Date('2013-07-03')
 }, {
   'id': 10391,
@@ -879,6 +1004,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 360,
+  'repos': 45,
   'date': new Date('2013-07-07')
 }, {
   'id': 10392,
@@ -886,6 +1012,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 4500,
+  'repos': 45,
   'date': new Date('2013-07-03')
 }, {
   'id': 10393,
@@ -893,6 +1020,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 4575,
+  'repos': 45,
   'date': new Date('2013-07-21')
 }, {
   'id': 10394,
@@ -900,6 +1028,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 2310,
+  'repos': 45,
   'date': new Date('2013-07-18')
 }, {
   'id': 10395,
@@ -907,6 +1036,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 7500,
+  'repos': 45,
   'date': new Date('2013-07-04')
 }, {
   'id': 10396,
@@ -914,6 +1044,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 3575,
+  'repos': 45,
   'date': new Date('2013-07-23')
 }, {
   'id': 10397,
@@ -921,6 +1052,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 760,
+  'repos': 45,
   'date': new Date('2013-07-01')
 }, {
   'id': 10398,
@@ -928,6 +1060,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 2400,
+  'repos': 45,
   'date': new Date('2013-07-11')
 }, {
   'id': 10399,
@@ -935,6 +1068,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 3330,
+  'repos': 45,
   'date': new Date('2013-07-04')
 }, {
   'id': 10400,
@@ -942,6 +1076,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 3480,
+  'repos': 45,
   'date': new Date('2013-07-23')
 }, {
   'id': 10401,
@@ -949,6 +1084,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 4875,
+  'repos': 45,
   'date': new Date('2013-07-11')
 }, {
   'id': 10404,
@@ -956,6 +1092,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 2650,
+  'repos': 45,
   'date': new Date('2013-07-16')
 }, {
   'id': 10405,
@@ -963,6 +1100,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1190,
+  'repos': 45,
   'date': new Date('2013-07-02')
 }, {
   'id': 10406,
@@ -970,6 +1108,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 960,
+  'repos': 45,
   'date': new Date('2013-07-26')
 }, {
   'id': 10407,
@@ -977,6 +1116,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 3600,
+  'repos': 45,
   'date': new Date('2013-08-08')
 }, {
   'id': 10408,
@@ -984,6 +1124,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2013-08-01')
 }, {
   'id': 10409,
@@ -991,6 +1132,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 1275,
+  'repos': 45,
   'date': new Date('2013-08-02')
 }, {
   'id': 10410,
@@ -998,6 +1140,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 3885,
+  'repos': 45,
   'date': new Date('2013-08-14')
 }, {
   'id': 10411,
@@ -1005,6 +1148,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 1900,
+  'repos': 45,
   'date': new Date('2013-08-05')
 }, {
   'id': 10412,
@@ -1012,6 +1156,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 2300,
+  'repos': 45,
   'date': new Date('2013-08-09')
 }, {
   'id': 10413,
@@ -1019,6 +1164,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 2895,
+  'repos': 45,
   'date': new Date('2013-08-15')
 }, {
   'id': 10414,
@@ -1026,6 +1172,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 350,
+  'repos': 45,
   'date': new Date('2013-08-20')
 }, {
   'id': 10415,
@@ -1033,6 +1180,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 4200,
+  'repos': 45,
   'date': new Date('2013-08-22')
 }, {
   'id': 10416,
@@ -1040,6 +1188,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 7175,
+  'repos': 45,
   'date': new Date('2013-08-14')
 }, {
   'id': 10417,
@@ -1047,6 +1196,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 4420,
+  'repos': 45,
   'date': new Date('2013-08-24')
 }, {
   'id': 10418,
@@ -1054,6 +1204,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 5200,
+  'repos': 45,
   'date': new Date('2013-08-21')
 }, {
   'id': 10419,
@@ -1061,6 +1212,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 7920,
+  'repos': 45,
   'date': new Date('2013-08-17')
 }, {
   'id': 10420,
@@ -1068,6 +1220,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 6990,
+  'repos': 45,
   'date': new Date('2013-08-22')
 }, {
   'id': 10421,
@@ -1075,6 +1228,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 2125,
+  'repos': 45,
   'date': new Date('2013-08-05')
 }, {
   'id': 10424,
@@ -1082,6 +1236,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 1880,
+  'repos': 45,
   'date': new Date('2013-08-12')
 }, {
   'id': 10425,
@@ -1089,6 +1244,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 710,
+  'repos': 45,
   'date': new Date('2013-08-25')
 }, {
   'id': 10426,
@@ -1096,6 +1252,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2013-08-20')
 }, {
   'id': 10428,
@@ -1103,6 +1260,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 4350,
+  'repos': 45,
   'date': new Date('2013-08-19')
 }, {
   'id': 10429,
@@ -1110,6 +1268,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 6020,
+  'repos': 45,
   'date': new Date('2013-08-02')
 }, {
   'id': 10430,
@@ -1117,6 +1276,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 3660,
+  'repos': 45,
   'date': new Date('2013-08-19')
 }, {
   'id': 10431,
@@ -1124,6 +1284,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 4525,
+  'repos': 45,
   'date': new Date('2013-08-24')
 }, {
   'id': 10432,
@@ -1131,6 +1292,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 4410,
+  'repos': 45,
   'date': new Date('2013-09-12')
 }, {
   'id': 10433,
@@ -1138,6 +1300,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 1725,
+  'repos': 45,
   'date': new Date('2013-09-07')
 }, {
   'id': 10434,
@@ -1145,6 +1308,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 2715,
+  'repos': 45,
   'date': new Date('2013-09-14')
 }, {
   'id': 10435,
@@ -1152,6 +1316,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 2820,
+  'repos': 45,
   'date': new Date('2013-09-08')
 }, {
   'id': 10436,
@@ -1159,6 +1324,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 2310,
+  'repos': 45,
   'date': new Date('2013-09-12')
 }, {
   'id': 10437,
@@ -1166,6 +1332,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 780,
+  'repos': 45,
   'date': new Date('2013-09-08')
 }, {
   'id': 10438,
@@ -1173,6 +1340,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 2370,
+  'repos': 45,
   'date': new Date('2013-09-19')
 }, {
   'id': 10439,
@@ -1180,6 +1348,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 1410,
+  'repos': 45,
   'date': new Date('2013-09-09')
 }, {
   'id': 10440,
@@ -1187,6 +1356,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 1825,
+  'repos': 45,
   'date': new Date('2013-09-23')
 }, {
   'id': 10441,
@@ -1194,6 +1364,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 4075,
+  'repos': 45,
   'date': new Date('2013-09-06')
 }, {
   'id': 10442,
@@ -1201,6 +1372,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 1020,
+  'repos': 45,
   'date': new Date('2013-09-04')
 }, {
   'id': 10443,
@@ -1208,6 +1380,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 4320,
+  'repos': 45,
   'date': new Date('2013-09-25')
 }, {
   'id': 10444,
@@ -1215,6 +1388,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 7530,
+  'repos': 45,
   'date': new Date('2013-09-13')
 }, {
   'id': 10445,
@@ -1222,6 +1396,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 2820,
+  'repos': 45,
   'date': new Date('2013-09-08')
 }, {
   'id': 10446,
@@ -1229,6 +1404,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 3050,
+  'repos': 45,
   'date': new Date('2013-09-04')
 }, {
   'id': 10449,
@@ -1236,6 +1412,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 850,
+  'repos': 45,
   'date': new Date('2013-09-24')
 }, {
   'id': 10450,
@@ -1243,6 +1420,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1440,
+  'repos': 45,
   'date': new Date('2013-09-19')
 }, {
   'id': 10451,
@@ -1250,6 +1428,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 1950,
+  'repos': 45,
   'date': new Date('2013-09-02')
 }, {
   'id': 10452,
@@ -1257,6 +1436,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 6390,
+  'repos': 45,
   'date': new Date('2013-10-11')
 }, {
   'id': 10453,
@@ -1264,6 +1444,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 4625,
+  'repos': 45,
   'date': new Date('2013-10-02')
 }, {
   'id': 10454,
@@ -1271,6 +1452,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 3510,
+  'repos': 45,
   'date': new Date('2013-10-24')
 }, {
   'id': 10455,
@@ -1278,6 +1460,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 2730,
+  'repos': 45,
   'date': new Date('2013-10-15')
 }, {
   'id': 10456,
@@ -1285,6 +1468,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 2070,
+  'repos': 45,
   'date': new Date('2013-10-15')
 }, {
   'id': 10457,
@@ -1292,6 +1476,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 2320,
+  'repos': 45,
   'date': new Date('2013-10-18')
 }, {
   'id': 10458,
@@ -1299,6 +1484,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 4260,
+  'repos': 45,
   'date': new Date('2013-10-24')
 }, {
   'id': 10459,
@@ -1306,6 +1492,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 840,
+  'repos': 45,
   'date': new Date('2013-10-18')
 }, {
   'id': 10460,
@@ -1313,6 +1500,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 7300,
+  'repos': 45,
   'date': new Date('2013-10-24')
 }, {
   'id': 10461,
@@ -1320,6 +1508,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 5950,
+  'repos': 45,
   'date': new Date('2013-10-11')
 }, {
   'id': 10462,
@@ -1327,6 +1516,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 3220,
+  'repos': 45,
   'date': new Date('2013-10-25')
 }, {
   'id': 10463,
@@ -1334,6 +1524,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 3480,
+  'repos': 45,
   'date': new Date('2013-10-08')
 }, {
   'id': 10464,
@@ -1341,6 +1532,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 4830,
+  'repos': 45,
   'date': new Date('2013-10-26')
 }, {
   'id': 10465,
@@ -1348,6 +1540,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 4470,
+  'repos': 45,
   'date': new Date('2013-10-05')
 }, {
   'id': 10466,
@@ -1355,6 +1548,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 3675,
+  'repos': 45,
   'date': new Date('2013-10-23')
 }, {
   'id': 10469,
@@ -1362,6 +1556,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 1470,
+  'repos': 45,
   'date': new Date('2013-10-01')
 }, {
   'id': 10470,
@@ -1369,6 +1564,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1810,
+  'repos': 45,
   'date': new Date('2013-10-02')
 }, {
   'id': 10471,
@@ -1376,6 +1572,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 600,
+  'repos': 45,
   'date': new Date('2013-10-23')
 }, {
   'id': 10472,
@@ -1383,6 +1580,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 7500,
+  'repos': 45,
   'date': new Date('2013-11-03')
 }, {
   'id': 10473,
@@ -1390,6 +1588,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 4625,
+  'repos': 45,
   'date': new Date('2013-11-02')
 }, {
   'id': 10474,
@@ -1397,6 +1596,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2013-11-09')
 }, {
   'id': 10475,
@@ -1404,6 +1604,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 1440,
+  'repos': 45,
   'date': new Date('2013-11-15')
 }, {
   'id': 10476,
@@ -1411,6 +1612,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 2420,
+  'repos': 45,
   'date': new Date('2013-11-15')
 }, {
   'id': 10477,
@@ -1418,6 +1620,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 4180,
+  'repos': 45,
   'date': new Date('2013-11-15')
 }, {
   'id': 10478,
@@ -1425,6 +1628,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 3720,
+  'repos': 45,
   'date': new Date('2013-11-25')
 }, {
   'id': 10479,
@@ -1432,6 +1636,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 2730,
+  'repos': 45,
   'date': new Date('2013-11-08')
 }, {
   'id': 10480,
@@ -1439,6 +1644,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 3775,
+  'repos': 45,
   'date': new Date('2013-11-17')
 }, {
   'id': 10481,
@@ -1446,6 +1652,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 3525,
+  'repos': 45,
   'date': new Date('2013-11-15')
 }, {
   'id': 10482,
@@ -1453,6 +1660,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 5320,
+  'repos': 45,
   'date': new Date('2013-11-08')
 }, {
   'id': 10483,
@@ -1460,6 +1668,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 5340,
+  'repos': 45,
   'date': new Date('2013-11-13')
 }, {
   'id': 10484,
@@ -1467,6 +1676,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 8850,
+  'repos': 45,
   'date': new Date('2013-11-01')
 }, {
   'id': 10485,
@@ -1474,6 +1684,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 7050,
+  'repos': 45,
   'date': new Date('2013-11-14')
 }, {
   'id': 10486,
@@ -1481,6 +1692,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 4200,
+  'repos': 45,
   'date': new Date('2013-11-18')
 }, {
   'id': 10489,
@@ -1488,6 +1700,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 590,
+  'repos': 45,
   'date': new Date('2013-11-11')
 }, {
   'id': 10490,
@@ -1495,6 +1708,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 810,
+  'repos': 45,
   'date': new Date('2013-11-12')
 }, {
   'id': 10491,
@@ -1502,6 +1716,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2013-11-07')
 }, {
   'id': 10492,
@@ -1509,6 +1724,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 8280,
+  'repos': 45,
   'date': new Date('2013-12-01')
 }, {
   'id': 10493,
@@ -1516,6 +1732,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 5650,
+  'repos': 45,
   'date': new Date('2013-12-19')
 }, {
   'id': 10494,
@@ -1523,6 +1740,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 2760,
+  'repos': 45,
   'date': new Date('2013-12-14')
 }, {
   'id': 10495,
@@ -1530,6 +1748,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 2670,
+  'repos': 45,
   'date': new Date('2013-12-03')
 }, {
   'id': 10496,
@@ -1537,6 +1756,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 2520,
+  'repos': 45,
   'date': new Date('2013-12-20')
 }, {
   'id': 10497,
@@ -1544,6 +1764,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 4080,
+  'repos': 45,
   'date': new Date('2013-12-21')
 }, {
   'id': 10498,
@@ -1551,6 +1772,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 4140,
+  'repos': 45,
   'date': new Date('2013-12-22')
 }, {
   'id': 10499,
@@ -1558,6 +1780,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2013-12-04')
 }, {
   'id': 10500,
@@ -1565,6 +1788,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 1400,
+  'repos': 45,
   'date': new Date('2013-12-19')
 }, {
   'id': 10501,
@@ -1572,6 +1796,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 7275,
+  'repos': 45,
   'date': new Date('2013-12-22')
 }, {
   'id': 10502,
@@ -1579,6 +1804,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 4100,
+  'repos': 45,
   'date': new Date('2013-12-20')
 }, {
   'id': 10503,
@@ -1586,6 +1812,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 5520,
+  'repos': 45,
   'date': new Date('2013-12-25')
 }, {
   'id': 10504,
@@ -1593,6 +1820,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 9210,
+  'repos': 45,
   'date': new Date('2013-12-24')
 }, {
   'id': 10505,
@@ -1600,6 +1828,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 7290,
+  'repos': 45,
   'date': new Date('2013-12-05')
 }, {
   'id': 10506,
@@ -1607,6 +1836,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 625,
+  'repos': 45,
   'date': new Date('2013-12-22')
 }, {
   'id': 10509,
@@ -1614,6 +1844,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 2850,
+  'repos': 45,
   'date': new Date('2013-12-17')
 }, {
   'id': 10510,
@@ -1621,6 +1852,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 2780,
+  'repos': 45,
   'date': new Date('2013-12-07')
 }, {
   'id': 10511,
@@ -1628,6 +1860,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 840,
+  'repos': 45,
   'date': new Date('2013-12-18')
 }, {
   'id': 10512,
@@ -1635,6 +1868,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 2970,
+  'repos': 45,
   'date': new Date('2013-12-23')
 }, {
   'id': 10513,
@@ -1642,6 +1876,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 945,
+  'repos': 45,
   'date': new Date('2013-12-06')
 }, {
   'id': 10514,
@@ -1649,6 +1884,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2013-12-04')
 }, {
   'id': 10515,
@@ -1656,6 +1892,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2013-12-01')
 }, {
   'id': 10516,
@@ -1663,6 +1900,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2013-12-02')
 }, {
   'id': 10513,
@@ -1670,6 +1908,7 @@ let MuscleSuivi = [{
   'country': 'Deltoïde',
   'city': 'Vancouver',
   'amount': 945,
+  'repos': 45,
   'date': new Date('2013-12-06')
 }, {
   'id': 10514,
@@ -1677,6 +1916,7 @@ let MuscleSuivi = [{
   'country': 'Deltoïde',
   'city': 'Denver',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2013-01-04')
 }, {
   'id': 10515,
@@ -1684,6 +1924,7 @@ let MuscleSuivi = [{
   'country': 'Deltoïde',
   'city': 'Vancouver',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2013-12-01')
 }, {
   'id': 10516,
@@ -1691,6 +1932,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2013-12-02')
 }, {
   'id': 10513,
@@ -1698,6 +1940,7 @@ let MuscleSuivi = [{
   'country': 'Deltoïde',
   'city': 'Vancouver',
   'amount': 945,
+  'repos': 45,
   'date': new Date('2014-12-06')
 }, {
   'id': 10514,
@@ -1705,6 +1948,7 @@ let MuscleSuivi = [{
   'country': 'Deltoïde',
   'city': 'Denver',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2014-12-04')
 }, {
   'id': 10515,
@@ -1712,6 +1956,7 @@ let MuscleSuivi = [{
   'country': 'Deltoïde',
   'city': 'Vancouver',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2014-12-01')
 }, {
   'id': 10516,
@@ -1719,6 +1964,7 @@ let MuscleSuivi = [{
   'country': 'Deltoïde',
   'city': 'Beijing',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2014-12-02')
 }, {
   'id': 10513,
@@ -1726,6 +1972,7 @@ let MuscleSuivi = [{
   'country': 'Deltoïde',
   'city': 'Vancouver',
   'amount': 945,
+  'repos': 45,
   'date': new Date('2015-12-06')
 }, {
   'id': 10514,
@@ -1733,6 +1980,7 @@ let MuscleSuivi = [{
   'country': 'Deltoïde',
   'city': 'Denver',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2015-12-04')
 }, {
   'id': 10515,
@@ -1740,6 +1988,7 @@ let MuscleSuivi = [{
   'country': 'Deltoïde',
   'city': 'Vancouver',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2015-12-01')
 }, {
   'id': 10516,
@@ -1747,6 +1996,7 @@ let MuscleSuivi = [{
   'country': 'Deltoïde',
   'city': 'Beijing',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2015-12-02')
 },
 
@@ -1756,6 +2006,7 @@ let MuscleSuivi = [{
   'country': 'Jumeaux',
   'city': 'Vancouver',
   'amount': 945,
+  'repos': 45,
   'date': new Date('2013-12-06')
 }, {
   'id': 10514,
@@ -1763,6 +2014,7 @@ let MuscleSuivi = [{
   'country': 'Jumeaux',
   'city': 'Denver',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2013-01-04')
 }, {
   'id': 10515,
@@ -1770,6 +2022,7 @@ let MuscleSuivi = [{
   'country': 'Jumeaux',
   'city': 'Vancouver',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2013-12-01')
 }, {
   'id': 10516,
@@ -1777,6 +2030,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2013-12-02')
 }, {
   'id': 10513,
@@ -1784,6 +2038,7 @@ let MuscleSuivi = [{
   'country': 'Jumeaux',
   'city': 'Vancouver',
   'amount': 945,
+  'repos': 45,
   'date': new Date('2014-12-06')
 }, {
   'id': 10514,
@@ -1791,6 +2046,7 @@ let MuscleSuivi = [{
   'country': 'Jumeaux',
   'city': 'Denver',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2014-12-04')
 }, {
   'id': 10515,
@@ -1798,6 +2054,7 @@ let MuscleSuivi = [{
   'country': 'Jumeaux',
   'city': 'Vancouver',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2014-12-01')
 }, {
   'id': 10516,
@@ -1805,6 +2062,7 @@ let MuscleSuivi = [{
   'country': 'Jumeaux',
   'city': 'Beijing',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2014-12-02')
 }, {
   'id': 10513,
@@ -1812,6 +2070,7 @@ let MuscleSuivi = [{
   'country': 'Jumeaux',
   'city': 'Vancouver',
   'amount': 945,
+  'repos': 45,
   'date': new Date('2015-12-06')
 }, {
   'id': 10514,
@@ -1819,6 +2078,7 @@ let MuscleSuivi = [{
   'country': 'Jumeaux',
   'city': 'Denver',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2015-12-04')
 }, {
   'id': 10515,
@@ -1826,6 +2086,7 @@ let MuscleSuivi = [{
   'country': 'Jumeaux',
   'city': 'Vancouver',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2015-12-01')
 }, {
   'id': 10516,
@@ -1833,6 +2094,7 @@ let MuscleSuivi = [{
   'country': 'Jumeaux',
   'city': 'Beijing',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2015-12-02')
 },
 
@@ -1842,6 +2104,7 @@ let MuscleSuivi = [{
   'country': 'Quadriceps fémoral',
   'city': 'Vancouver',
   'amount': 945,
+  'repos': 45,
   'date': new Date('2013-12-06')
 }, {
   'id': 10514,
@@ -1849,6 +2112,7 @@ let MuscleSuivi = [{
   'country': 'Quadriceps fémoral',
   'city': 'Denver',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2013-01-04')
 }, {
   'id': 10515,
@@ -1856,6 +2120,7 @@ let MuscleSuivi = [{
   'country': 'Quadriceps fémoral',
   'city': 'Vancouver',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2013-12-01')
 }, {
   'id': 10516,
@@ -1863,6 +2128,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2013-12-02')
 }, {
   'id': 10513,
@@ -1870,6 +2136,7 @@ let MuscleSuivi = [{
   'country': 'Quadriceps fémoral',
   'city': 'Vancouver',
   'amount': 945,
+  'repos': 45,
   'date': new Date('2014-12-06')
 }, {
   'id': 10514,
@@ -1877,6 +2144,7 @@ let MuscleSuivi = [{
   'country': 'Quadriceps fémoral',
   'city': 'Denver',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2014-12-04')
 }, {
   'id': 10515,
@@ -1884,6 +2152,7 @@ let MuscleSuivi = [{
   'country': 'Quadriceps fémoral',
   'city': 'Vancouver',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2014-12-01')
 }, {
   'id': 10516,
@@ -1891,6 +2160,7 @@ let MuscleSuivi = [{
   'country': 'Quadriceps fémoral',
   'city': 'Beijing',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2014-12-02')
 }, {
   'id': 10513,
@@ -1898,6 +2168,7 @@ let MuscleSuivi = [{
   'country': 'Quadriceps fémoral',
   'city': 'Vancouver',
   'amount': 945,
+  'repos': 45,
   'date': new Date('2015-12-06')
 }, {
   'id': 10514,
@@ -1905,6 +2176,7 @@ let MuscleSuivi = [{
   'country': 'Quadriceps fémoral',
   'city': 'Denver',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2015-12-04')
 }, {
   'id': 10515,
@@ -1912,6 +2184,7 @@ let MuscleSuivi = [{
   'country': 'Quadriceps fémoral',
   'city': 'Vancouver',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2015-12-01')
 }, {
   'id': 10516,
@@ -1919,6 +2192,7 @@ let MuscleSuivi = [{
   'country': 'Quadriceps fémoral',
   'city': 'Beijing',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2015-12-02')
 },
 
@@ -1928,6 +2202,7 @@ let MuscleSuivi = [{
   'country': 'Grand dorsal',
   'city': 'Vancouver',
   'amount': 945,
+  'repos': 45,
   'date': new Date('2013-12-06')
 }, {
   'id': 10514,
@@ -1935,6 +2210,7 @@ let MuscleSuivi = [{
   'country': 'Grand dorsal',
   'city': 'Denver',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2013-01-04')
 }, {
   'id': 10515,
@@ -1942,6 +2218,7 @@ let MuscleSuivi = [{
   'country': 'Grand dorsal',
   'city': 'Vancouver',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2013-12-01')
 }, {
   'id': 10516,
@@ -1949,6 +2226,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2013-12-02')
 }, {
   'id': 10513,
@@ -1956,6 +2234,7 @@ let MuscleSuivi = [{
   'country': 'Grand dorsal',
   'city': 'Vancouver',
   'amount': 945,
+  'repos': 45,
   'date': new Date('2014-12-06')
 }, {
   'id': 10514,
@@ -1963,6 +2242,7 @@ let MuscleSuivi = [{
   'country': 'Grand dorsal',
   'city': 'Denver',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2014-12-04')
 }, {
   'id': 10515,
@@ -1970,6 +2250,7 @@ let MuscleSuivi = [{
   'country': 'Grand dorsal',
   'city': 'Vancouver',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2014-12-01')
 }, {
   'id': 10516,
@@ -1977,6 +2258,7 @@ let MuscleSuivi = [{
   'country': 'Grand dorsal',
   'city': 'Beijing',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2014-12-02')
 }, {
   'id': 10513,
@@ -1984,6 +2266,7 @@ let MuscleSuivi = [{
   'country': 'Grand dorsal',
   'city': 'Vancouver',
   'amount': 945,
+  'repos': 45,
   'date': new Date('2015-12-06')
 }, {
   'id': 10514,
@@ -1991,6 +2274,7 @@ let MuscleSuivi = [{
   'country': 'Grand dorsal',
   'city': 'Denver',
   'amount': 2625,
+  'repos': 45,
   'date': new Date('2015-12-04')
 }, {
   'id': 10515,
@@ -1998,6 +2282,7 @@ let MuscleSuivi = [{
   'country': 'Grand dorsal',
   'city': 'Vancouver',
   'amount': 390,
+  'repos': 45,
   'date': new Date('2015-12-01')
 }, {
   'id': 10516,
@@ -2005,6 +2290,7 @@ let MuscleSuivi = [{
   'country': 'Grand dorsal',
   'city': 'Beijing',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2015-12-02')
 }, {
   'id': 10517,
@@ -2012,6 +2298,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 7710,
+  'repos': 45,
   'date': new Date('2014-01-18')
 }, {
   'id': 10518,
@@ -2019,6 +2306,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 7975,
+  'repos': 45,
   'date': new Date('2014-01-10')
 }, {
   'id': 10519,
@@ -2026,6 +2314,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 3285,
+  'repos': 45,
   'date': new Date('2014-01-13')
 }, {
   'id': 10520,
@@ -2033,6 +2322,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 2580,
+  'repos': 45,
   'date': new Date('2014-01-22')
 }, {
   'id': 10521,
@@ -2040,6 +2330,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 2160,
+  'repos': 45,
   'date': new Date('2014-01-26')
 }, {
   'id': 10522,
@@ -2047,6 +2338,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 1100,
+  'repos': 45,
   'date': new Date('2014-01-25')
 }, {
   'id': 10523,
@@ -2054,6 +2346,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 4425,
+  'repos': 45,
   'date': new Date('2014-01-21')
 }, {
   'id': 10524,
@@ -2061,6 +2354,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 1360,
+  'repos': 45,
   'date': new Date('2014-01-22')
 }, {
   'id': 10525,
@@ -2068,6 +2362,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 3250,
+  'repos': 45,
   'date': new Date('2014-01-14')
 }, {
   'id': 10526,
@@ -2075,6 +2370,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 5550,
+  'repos': 45,
   'date': new Date('2014-01-21')
 }, {
   'id': 10527,
@@ -2082,6 +2378,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 2860,
+  'repos': 45,
   'date': new Date('2014-01-25')
 }, {
   'id': 10528,
@@ -2089,6 +2386,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 5320,
+  'repos': 45,
   'date': new Date('2014-01-08')
 }, {
   'id': 10529,
@@ -2096,6 +2394,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 4050,
+  'repos': 45,
   'date': new Date('2014-01-14')
 }, {
   'id': 10530,
@@ -2103,6 +2402,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 3450,
+  'repos': 45,
   'date': new Date('2014-01-24')
 }, {
   'id': 10531,
@@ -2110,6 +2410,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 5425,
+  'repos': 45,
   'date': new Date('2014-01-11')
 }, {
   'id': 10534,
@@ -2117,6 +2418,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 610,
+  'repos': 45,
   'date': new Date('2014-01-05')
 }, {
   'id': 10535,
@@ -2124,6 +2426,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1580,
+  'repos': 45,
   'date': new Date('2014-01-15')
 }, {
   'id': 10536,
@@ -2131,6 +2434,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 3780,
+  'repos': 45,
   'date': new Date('2014-02-18')
 }, {
   'id': 10537,
@@ -2138,6 +2442,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 5400,
+  'repos': 45,
   'date': new Date('2014-02-21')
 }, {
   'id': 10538,
@@ -2145,6 +2450,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 630,
+  'repos': 45,
   'date': new Date('2014-02-18')
 }, {
   'id': 10539,
@@ -2152,6 +2458,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 3960,
+  'repos': 45,
   'date': new Date('2014-02-04')
 }, {
   'id': 10540,
@@ -2159,6 +2466,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 2010,
+  'repos': 45,
   'date': new Date('2014-02-25')
 }, {
   'id': 10541,
@@ -2166,6 +2474,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 5000,
+  'repos': 45,
   'date': new Date('2014-02-01')
 }, {
   'id': 10542,
@@ -2173,6 +2482,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 1995,
+  'repos': 45,
   'date': new Date('2014-02-20')
 }, {
   'id': 10543,
@@ -2180,6 +2490,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 860,
+  'repos': 45,
   'date': new Date('2014-02-12')
 }, {
   'id': 10544,
@@ -2187,6 +2498,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 2150,
+  'repos': 45,
   'date': new Date('2014-02-10')
 }, {
   'id': 10545,
@@ -2194,6 +2506,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 4050,
+  'repos': 45,
   'date': new Date('2014-02-06')
 }, {
   'id': 10546,
@@ -2201,6 +2514,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 2960,
+  'repos': 45,
   'date': new Date('2014-02-18')
 }, {
   'id': 10547,
@@ -2208,6 +2522,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 1780,
+  'repos': 45,
   'date': new Date('2014-02-26')
 }, {
   'id': 10548,
@@ -2215,6 +2530,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 8700,
+  'repos': 45,
   'date': new Date('2014-02-03')
 }, {
   'id': 10549,
@@ -2222,6 +2538,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 3390,
+  'repos': 45,
   'date': new Date('2014-02-03')
 }, {
   'id': 10550,
@@ -2229,6 +2546,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 4425,
+  'repos': 45,
   'date': new Date('2014-02-15')
 }, {
   'id': 10553,
@@ -2236,6 +2554,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 2310,
+  'repos': 45,
   'date': new Date('2014-02-13')
 }, {
   'id': 10554,
@@ -2243,6 +2562,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1770,
+  'repos': 45,
   'date': new Date('2014-02-20')
 }, {
   'id': 10555,
@@ -2250,6 +2570,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 3060,
+  'repos': 45,
   'date': new Date('2014-02-26')
 }, {
   'id': 10556,
@@ -2257,6 +2578,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 1750,
+  'repos': 45,
   'date': new Date('2014-02-12')
 }, {
   'id': 10557,
@@ -2264,6 +2586,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 2280,
+  'repos': 45,
   'date': new Date('2014-03-09')
 }, {
   'id': 10558,
@@ -2271,6 +2594,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 7600,
+  'repos': 45,
   'date': new Date('2014-03-25')
 }, {
   'id': 10559,
@@ -2278,6 +2602,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 1035,
+  'repos': 45,
   'date': new Date('2014-03-23')
 }, {
   'id': 10560,
@@ -2285,6 +2610,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 1245,
+  'repos': 45,
   'date': new Date('2014-03-01')
 }, {
   'id': 10561,
@@ -2292,6 +2618,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 2860,
+  'repos': 45,
   'date': new Date('2014-03-19')
 }, {
   'id': 10562,
@@ -2299,6 +2626,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 440,
+  'repos': 45,
   'date': new Date('2014-03-19')
 }, {
   'id': 10563,
@@ -2306,6 +2634,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 4665,
+  'repos': 45,
   'date': new Date('2014-03-02')
 }, {
   'id': 10564,
@@ -2313,6 +2642,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 2270,
+  'repos': 45,
   'date': new Date('2014-03-15')
 }, {
   'id': 10565,
@@ -2320,6 +2650,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 5000,
+  'repos': 45,
   'date': new Date('2014-03-09')
 }, {
   'id': 10566,
@@ -2327,6 +2658,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 5100,
+  'repos': 45,
   'date': new Date('2014-03-23')
 }, {
   'id': 10567,
@@ -2334,6 +2666,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 2120,
+  'repos': 45,
   'date': new Date('2014-03-11')
 }, {
   'id': 10568,
@@ -2341,6 +2674,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 5140,
+  'repos': 45,
   'date': new Date('2014-03-05')
 }, {
   'id': 10569,
@@ -2348,6 +2682,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 6210,
+  'repos': 45,
   'date': new Date('2014-03-19')
 }, {
   'id': 10570,
@@ -2355,6 +2690,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 9510,
+  'repos': 45,
   'date': new Date('2014-03-19')
 }, {
   'id': 10571,
@@ -2362,6 +2698,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 7600,
+  'repos': 45,
   'date': new Date('2014-03-21')
 }, {
   'id': 10574,
@@ -2369,6 +2706,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 1820,
+  'repos': 45,
   'date': new Date('2014-03-07')
 }, {
   'id': 10575,
@@ -2376,6 +2714,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1670,
+  'repos': 45,
   'date': new Date('2014-03-21')
 }, {
   'id': 10576,
@@ -2383,6 +2722,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 4800,
+  'repos': 45,
   'date': new Date('2014-03-08')
 }, {
   'id': 10577,
@@ -2390,6 +2730,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 2925,
+  'repos': 45,
   'date': new Date('2014-03-03')
 }, {
   'id': 10578,
@@ -2397,6 +2738,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 2940,
+  'repos': 45,
   'date': new Date('2014-04-11')
 }, {
   'id': 10579,
@@ -2404,6 +2746,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 3525,
+  'repos': 45,
   'date': new Date('2014-04-13')
 }, {
   'id': 10580,
@@ -2411,6 +2754,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 2475,
+  'repos': 45,
   'date': new Date('2014-04-22')
 }, {
   'id': 10581,
@@ -2418,6 +2762,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 3315,
+  'repos': 45,
   'date': new Date('2014-04-08')
 }, {
   'id': 10582,
@@ -2425,6 +2770,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 3140,
+  'repos': 45,
   'date': new Date('2014-04-07')
 }, {
   'id': 10583,
@@ -2432,6 +2778,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 2520,
+  'repos': 45,
   'date': new Date('2014-04-01')
 }, {
   'id': 10584,
@@ -2439,6 +2786,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 1200,
+  'repos': 45,
   'date': new Date('2014-04-10')
 }, {
   'id': 10585,
@@ -2446,6 +2794,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 2060,
+  'repos': 45,
   'date': new Date('2014-04-21')
 }, {
   'id': 10586,
@@ -2453,6 +2802,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 7875,
+  'repos': 45,
   'date': new Date('2014-04-02')
 }, {
   'id': 10587,
@@ -2460,6 +2810,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 1450,
+  'repos': 45,
   'date': new Date('2014-04-07')
 }, {
   'id': 10588,
@@ -2467,6 +2818,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 2640,
+  'repos': 45,
   'date': new Date('2014-04-22')
 }, {
   'id': 10589,
@@ -2474,6 +2826,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 1960,
+  'repos': 45,
   'date': new Date('2014-04-16')
 }, {
   'id': 10590,
@@ -2481,6 +2834,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2014-04-23')
 }, {
   'id': 10591,
@@ -2488,6 +2842,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 4500,
+  'repos': 45,
   'date': new Date('2014-04-05')
 }, {
   'id': 10592,
@@ -2495,6 +2850,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 5050,
+  'repos': 45,
   'date': new Date('2014-04-11')
 }, {
   'id': 10595,
@@ -2502,6 +2858,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 1050,
+  'repos': 45,
   'date': new Date('2014-04-19')
 }, {
   'id': 10596,
@@ -2509,6 +2866,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1850,
+  'repos': 45,
   'date': new Date('2014-04-02')
 }, {
   'id': 10597,
@@ -2516,6 +2874,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 3160,
+  'repos': 45,
   'date': new Date('2014-04-01')
 }, {
   'id': 10598,
@@ -2523,6 +2882,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 875,
+  'repos': 45,
   'date': new Date('2014-04-04')
 }, {
   'id': 10599,
@@ -2530,6 +2890,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 3200,
+  'repos': 45,
   'date': new Date('2014-04-08')
 }, {
   'id': 10601,
@@ -2537,6 +2898,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 3060,
+  'repos': 45,
   'date': new Date('2014-04-06')
 }, {
   'id': 10602,
@@ -2544,6 +2906,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 6690,
+  'repos': 45,
   'date': new Date('2014-05-19')
 }, {
   'id': 10603,
@@ -2551,6 +2914,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 4525,
+  'repos': 45,
   'date': new Date('2014-05-15')
 }, {
   'id': 10604,
@@ -2558,6 +2922,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 4665,
+  'repos': 45,
   'date': new Date('2014-05-10')
 }, {
   'id': 10605,
@@ -2565,6 +2930,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 4530,
+  'repos': 45,
   'date': new Date('2014-05-18')
 }, {
   'id': 10606,
@@ -2572,6 +2938,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 1330,
+  'repos': 45,
   'date': new Date('2014-05-08')
 }, {
   'id': 10607,
@@ -2579,6 +2946,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 1720,
+  'repos': 45,
   'date': new Date('2014-05-20')
 }, {
   'id': 10608,
@@ -2586,6 +2954,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 3750,
+  'repos': 45,
   'date': new Date('2014-05-16')
 }, {
   'id': 10609,
@@ -2593,6 +2962,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 1290,
+  'repos': 45,
   'date': new Date('2014-05-10')
 }, {
   'id': 10610,
@@ -2600,6 +2970,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 4925,
+  'repos': 45,
   'date': new Date('2014-05-14')
 }, {
   'id': 10611,
@@ -2607,6 +2978,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 4300,
+  'repos': 45,
   'date': new Date('2014-05-22')
 }, {
   'id': 10612,
@@ -2614,6 +2986,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 5740,
+  'repos': 45,
   'date': new Date('2014-05-08')
 }, {
   'id': 10613,
@@ -2621,6 +2994,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 3760,
+  'repos': 45,
   'date': new Date('2014-05-18')
 }, {
   'id': 10614,
@@ -2628,6 +3002,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 7920,
+  'repos': 45,
   'date': new Date('2014-05-22')
 }, {
   'id': 10615,
@@ -2635,6 +3010,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 1440,
+  'repos': 45,
   'date': new Date('2014-05-21')
 }, {
   'id': 10616,
@@ -2642,6 +3018,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 5975,
+  'repos': 45,
   'date': new Date('2014-05-25')
 }, {
   'id': 10619,
@@ -2649,6 +3026,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2014-05-06')
 }, {
   'id': 10620,
@@ -2656,6 +3034,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 2320,
+  'repos': 45,
   'date': new Date('2014-05-14')
 }, {
   'id': 10621,
@@ -2663,6 +3042,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 8370,
+  'repos': 45,
   'date': new Date('2014-05-06')
 }, {
   'id': 10622,
@@ -2670,6 +3050,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 5190,
+  'repos': 45,
   'date': new Date('2014-06-26')
 }, {
   'id': 10623,
@@ -2677,6 +3058,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 925,
+  'repos': 45,
   'date': new Date('2014-06-04')
 }, {
   'id': 10624,
@@ -2684,6 +3066,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 3240,
+  'repos': 45,
   'date': new Date('2014-06-20')
 }, {
   'id': 10625,
@@ -2691,6 +3074,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 3180,
+  'repos': 45,
   'date': new Date('2014-06-23')
 }, {
   'id': 10626,
@@ -2698,6 +3082,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 780,
+  'repos': 45,
   'date': new Date('2014-06-13')
 }, {
   'id': 10627,
@@ -2705,6 +3090,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 4680,
+  'repos': 45,
   'date': new Date('2014-06-08')
 }, {
   'id': 10628,
@@ -2712,6 +3098,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 2475,
+  'repos': 45,
   'date': new Date('2014-06-25')
 }, {
   'id': 10629,
@@ -2719,6 +3106,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 1920,
+  'repos': 45,
   'date': new Date('2014-06-20')
 }, {
   'id': 10630,
@@ -2726,6 +3114,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 7500,
+  'repos': 45,
   'date': new Date('2014-06-25')
 }, {
   'id': 10631,
@@ -2733,6 +3122,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 5025,
+  'repos': 45,
   'date': new Date('2014-06-26')
 }, {
   'id': 10632,
@@ -2740,6 +3130,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 2400,
+  'repos': 45,
   'date': new Date('2014-06-08')
 }, {
   'id': 10633,
@@ -2747,6 +3138,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 1720,
+  'repos': 45,
   'date': new Date('2014-06-09')
 }, {
   'id': 10634,
@@ -2754,6 +3146,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 2880,
+  'repos': 45,
   'date': new Date('2014-06-21')
 }, {
   'id': 10635,
@@ -2761,6 +3154,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 5430,
+  'repos': 45,
   'date': new Date('2014-06-03')
 }, {
   'id': 10636,
@@ -2768,6 +3162,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 4475,
+  'repos': 45,
   'date': new Date('2014-06-19')
 }, {
   'id': 10639,
@@ -2775,6 +3170,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 1930,
+  'repos': 45,
   'date': new Date('2014-06-02')
 }, {
   'id': 10640,
@@ -2782,6 +3178,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 580,
+  'repos': 45,
   'date': new Date('2014-06-25')
 }, {
   'id': 10641,
@@ -2789,6 +3186,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1620,
+  'repos': 45,
   'date': new Date('2014-06-12')
 }, {
   'id': 10643,
@@ -2796,6 +3194,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 6025,
+  'repos': 45,
   'date': new Date('2014-06-23')
 }, {
   'id': 10644,
@@ -2803,6 +3202,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 3540,
+  'repos': 45,
   'date': new Date('2014-07-21')
 }, {
   'id': 10645,
@@ -2810,6 +3210,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 3000,
+  'repos': 45,
   'date': new Date('2014-07-01')
 }, {
   'id': 10646,
@@ -2817,6 +3218,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 3240,
+  'repos': 45,
   'date': new Date('2014-07-26')
 }, {
   'id': 10647,
@@ -2824,6 +3226,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 2265,
+  'repos': 45,
   'date': new Date('2014-07-22')
 }, {
   'id': 10648,
@@ -2831,6 +3234,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 400,
+  'repos': 45,
   'date': new Date('2014-07-09')
 }, {
   'id': 10649,
@@ -2838,6 +3242,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 1460,
+  'repos': 45,
   'date': new Date('2014-07-08')
 }, {
   'id': 10650,
@@ -2845,6 +3250,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 1620,
+  'repos': 45,
   'date': new Date('2014-07-18')
 }, {
   'id': 10651,
@@ -2852,6 +3258,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 2400,
+  'repos': 45,
   'date': new Date('2014-07-25')
 }, {
   'id': 10652,
@@ -2859,6 +3266,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 5275,
+  'repos': 45,
   'date': new Date('2014-07-04')
 }, {
   'id': 10653,
@@ -2866,6 +3274,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 4475,
+  'repos': 45,
   'date': new Date('2014-07-03')
 }, {
   'id': 10654,
@@ -2873,6 +3282,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 3980,
+  'repos': 45,
   'date': new Date('2014-07-21')
 }, {
   'id': 10655,
@@ -2880,6 +3290,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 5240,
+  'repos': 45,
   'date': new Date('2014-07-11')
 }, {
   'id': 10656,
@@ -2887,6 +3298,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 1200,
+  'repos': 45,
   'date': new Date('2014-07-21')
 }, {
   'id': 10657,
@@ -2894,6 +3306,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 5700,
+  'repos': 45,
   'date': new Date('2014-07-18')
 }, {
   'id': 10658,
@@ -2901,6 +3314,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 5575,
+  'repos': 45,
   'date': new Date('2014-07-01')
 }, {
   'id': 10661,
@@ -2908,6 +3322,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 1280,
+  'repos': 45,
   'date': new Date('2014-07-04')
 }, {
   'id': 10662,
@@ -2915,6 +3330,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1040,
+  'repos': 45,
   'date': new Date('2014-07-02')
 }, {
   'id': 10663,
@@ -2922,6 +3338,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 5520,
+  'repos': 45,
   'date': new Date('2014-07-21')
 }, {
   'id': 10664,
@@ -2929,6 +3346,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 1760,
+  'repos': 45,
   'date': new Date('2014-07-25')
 }, {
   'id': 10665,
@@ -2936,6 +3354,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 4080,
+  'repos': 45,
   'date': new Date('2014-07-07')
 }, {
   'id': 10666,
@@ -2943,6 +3362,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1000,
+  'repos': 45,
   'date': new Date('2014-07-21')
 }, {
   'id': 10667,
@@ -2950,6 +3370,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 3270,
+  'repos': 45,
   'date': new Date('2014-07-12')
 }, {
   'id': 10668,
@@ -2957,6 +3378,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 1770,
+  'repos': 45,
   'date': new Date('2014-08-23')
 }, {
   'id': 10669,
@@ -2964,6 +3386,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 2700,
+  'repos': 45,
   'date': new Date('2014-08-09')
 }, {
   'id': 10670,
@@ -2971,6 +3394,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 2175,
+  'repos': 45,
   'date': new Date('2014-08-03')
 }, {
   'id': 10671,
@@ -2978,6 +3402,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 3375,
+  'repos': 45,
   'date': new Date('2014-08-11')
 }, {
   'id': 10672,
@@ -2985,6 +3410,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 2040,
+  'repos': 45,
   'date': new Date('2014-08-01')
 }, {
   'id': 10673,
@@ -2992,6 +3418,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 3000,
+  'repos': 45,
   'date': new Date('2014-08-21')
 }, {
   'id': 10674,
@@ -2999,6 +3426,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 3900,
+  'repos': 45,
   'date': new Date('2014-08-16')
 }, {
   'id': 10675,
@@ -3006,6 +3434,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 1370,
+  'repos': 45,
   'date': new Date('2014-08-20')
 }, {
   'id': 10676,
@@ -3013,6 +3442,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 5700,
+  'repos': 45,
   'date': new Date('2014-08-01')
 }, {
   'id': 10677,
@@ -3020,6 +3450,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 1275,
+  'repos': 45,
   'date': new Date('2014-08-22')
 }, {
   'id': 10678,
@@ -3027,6 +3458,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 4060,
+  'repos': 45,
   'date': new Date('2014-08-13')
 }, {
   'id': 10679,
@@ -3034,6 +3466,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 2320,
+  'repos': 45,
   'date': new Date('2014-08-18')
 }, {
   'id': 10680,
@@ -3041,6 +3474,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 7590,
+  'repos': 45,
   'date': new Date('2014-08-24')
 }, {
   'id': 10681,
@@ -3048,6 +3482,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 4560,
+  'repos': 45,
   'date': new Date('2014-08-20')
 }, {
   'id': 10682,
@@ -3055,6 +3490,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 7575,
+  'repos': 45,
   'date': new Date('2014-08-20')
 }, {
   'id': 10685,
@@ -3062,6 +3498,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 1390,
+  'repos': 45,
   'date': new Date('2014-08-15')
 }, {
   'id': 10686,
@@ -3069,6 +3506,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1320,
+  'repos': 45,
   'date': new Date('2014-08-09')
 }, {
   'id': 10687,
@@ -3076,6 +3514,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 1680,
+  'repos': 45,
   'date': new Date('2014-08-09')
 }, {
   'id': 10688,
@@ -3083,6 +3522,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 1500,
+  'repos': 45,
   'date': new Date('2014-08-11')
 }, {
   'id': 10689,
@@ -3090,6 +3530,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 6150,
+  'repos': 45,
   'date': new Date('2014-09-21')
 }, {
   'id': 10690,
@@ -3097,6 +3538,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 3675,
+  'repos': 45,
   'date': new Date('2014-09-02')
 }, {
   'id': 10691,
@@ -3104,6 +3546,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 2250,
+  'repos': 45,
   'date': new Date('2014-09-05')
 }, {
   'id': 10692,
@@ -3111,6 +3554,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 3585,
+  'repos': 45,
   'date': new Date('2014-09-10')
 }, {
   'id': 10693,
@@ -3118,6 +3562,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 1470,
+  'repos': 45,
   'date': new Date('2014-09-01')
 }, {
   'id': 10694,
@@ -3125,6 +3570,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 2260,
+  'repos': 45,
   'date': new Date('2014-09-02')
 }, {
   'id': 10695,
@@ -3132,6 +3578,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 3765,
+  'repos': 45,
   'date': new Date('2014-09-03')
 }, {
   'id': 10696,
@@ -3139,6 +3586,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 1640,
+  'repos': 45,
   'date': new Date('2014-09-04')
 }, {
   'id': 10697,
@@ -3146,6 +3594,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 4475,
+  'repos': 45,
   'date': new Date('2014-09-09')
 }, {
   'id': 10698,
@@ -3153,6 +3602,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 5975,
+  'repos': 45,
   'date': new Date('2014-09-04')
 }, {
   'id': 10699,
@@ -3160,6 +3610,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 1100,
+  'repos': 45,
   'date': new Date('2014-09-16')
 }, {
   'id': 10700,
@@ -3167,6 +3618,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 1320,
+  'repos': 45,
   'date': new Date('2014-09-18')
 }, {
   'id': 10701,
@@ -3174,6 +3626,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 8610,
+  'repos': 45,
   'date': new Date('2014-09-19')
 }, {
   'id': 10702,
@@ -3181,6 +3634,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 9210,
+  'repos': 45,
   'date': new Date('2014-09-09')
 }, {
   'id': 10703,
@@ -3188,6 +3642,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 3700,
+  'repos': 45,
   'date': new Date('2014-09-01')
 }, {
   'id': 10706,
@@ -3195,6 +3650,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 2370,
+  'repos': 45,
   'date': new Date('2014-09-03')
 }, {
   'id': 10707,
@@ -3202,6 +3658,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1870,
+  'repos': 45,
   'date': new Date('2014-09-10')
 }, {
   'id': 10708,
@@ -3209,6 +3666,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 2070,
+  'repos': 45,
   'date': new Date('2014-09-25')
 }, {
   'id': 10709,
@@ -3216,6 +3674,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 5025,
+  'repos': 45,
   'date': new Date('2014-09-19')
 }, {
   'id': 10710,
@@ -3223,6 +3682,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 1080,
+  'repos': 45,
   'date': new Date('2014-10-15')
 }, {
   'id': 10711,
@@ -3230,6 +3690,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 1400,
+  'repos': 45,
   'date': new Date('2014-10-22')
 }, {
   'id': 10712,
@@ -3237,6 +3698,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 4260,
+  'repos': 45,
   'date': new Date('2014-10-01')
 }, {
   'id': 10713,
@@ -3244,6 +3706,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 2745,
+  'repos': 45,
   'date': new Date('2014-10-01')
 }, {
   'id': 10714,
@@ -3251,6 +3714,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 2920,
+  'repos': 45,
   'date': new Date('2014-10-23')
 }, {
   'id': 10715,
@@ -3258,6 +3722,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 3520,
+  'repos': 45,
   'date': new Date('2014-10-11')
 }, {
   'id': 10716,
@@ -3265,6 +3730,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 4035,
+  'repos': 45,
   'date': new Date('2014-10-20')
 }, {
   'id': 10717,
@@ -3272,6 +3738,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 1730,
+  'repos': 45,
   'date': new Date('2014-10-05')
 }, {
   'id': 10718,
@@ -3279,6 +3746,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 975,
+  'repos': 45,
   'date': new Date('2014-10-06')
 }, {
   'id': 10719,
@@ -3286,6 +3754,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 5700,
+  'repos': 45,
   'date': new Date('2014-10-06')
 }, {
   'id': 10720,
@@ -3293,6 +3762,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 5080,
+  'repos': 45,
   'date': new Date('2014-10-18')
 }, {
   'id': 10721,
@@ -3300,6 +3770,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 2940,
+  'repos': 45,
   'date': new Date('2014-10-24')
 }, {
   'id': 10722,
@@ -3307,6 +3778,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 2670,
+  'repos': 45,
   'date': new Date('2014-10-04')
 }, {
   'id': 10723,
@@ -3314,6 +3786,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 1230,
+  'repos': 45,
   'date': new Date('2014-10-11')
 }, {
   'id': 10724,
@@ -3321,6 +3794,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 600,
+  'repos': 45,
   'date': new Date('2014-10-08')
 }, {
   'id': 10727,
@@ -3328,6 +3802,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 1500,
+  'repos': 45,
   'date': new Date('2014-10-17')
 }, {
   'id': 10728,
@@ -3335,6 +3810,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 370,
+  'repos': 45,
   'date': new Date('2014-10-05')
 }, {
   'id': 10729,
@@ -3342,6 +3818,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 2340,
+  'repos': 45,
   'date': new Date('2014-10-16')
 }, {
   'id': 10730,
@@ -3349,6 +3826,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 1080,
+  'repos': 45,
   'date': new Date('2014-10-08')
 }, {
   'id': 10731,
@@ -3356,6 +3834,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 2775,
+  'repos': 45,
   'date': new Date('2014-10-21')
 }, {
   'id': 10732,
@@ -3363,6 +3842,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 4380,
+  'repos': 45,
   'date': new Date('2014-11-09')
 }, {
   'id': 10733,
@@ -3370,6 +3850,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 5500,
+  'repos': 45,
   'date': new Date('2014-11-21')
 }, {
   'id': 10734,
@@ -3377,6 +3858,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 1920,
+  'repos': 45,
   'date': new Date('2014-11-24')
 }, {
   'id': 10735,
@@ -3384,6 +3866,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 765,
+  'repos': 45,
   'date': new Date('2014-11-24')
 }, {
   'id': 10736,
@@ -3391,6 +3874,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 370,
+  'repos': 45,
   'date': new Date('2014-11-18')
 }, {
   'id': 10737,
@@ -3398,6 +3882,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 3500,
+  'repos': 45,
   'date': new Date('2014-11-25')
 }, {
   'id': 10738,
@@ -3405,6 +3890,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 825,
+  'repos': 45,
   'date': new Date('2014-11-09')
 }, {
   'id': 10739,
@@ -3412,6 +3898,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 490,
+  'repos': 45,
   'date': new Date('2014-11-23')
 }, {
   'id': 10740,
@@ -3419,6 +3906,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 7075,
+  'repos': 45,
   'date': new Date('2014-11-20')
 }, {
   'id': 10741,
@@ -3426,6 +3914,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 1350,
+  'repos': 45,
   'date': new Date('2014-11-25')
 }, {
   'id': 10742,
@@ -3433,6 +3922,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 1440,
+  'repos': 45,
   'date': new Date('2014-11-15')
 }, {
   'id': 10743,
@@ -3440,6 +3930,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 2820,
+  'repos': 45,
   'date': new Date('2014-11-13')
 }, {
   'id': 10744,
@@ -3447,6 +3938,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 2280,
+  'repos': 45,
   'date': new Date('2014-11-12')
 }, {
   'id': 10745,
@@ -3454,6 +3946,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 1110,
+  'repos': 45,
   'date': new Date('2014-11-03')
 }, {
   'id': 10746,
@@ -3461,6 +3954,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 1150,
+  'repos': 45,
   'date': new Date('2014-11-23')
 }, {
   'id': 10749,
@@ -3468,6 +3962,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 1940,
+  'repos': 45,
   'date': new Date('2014-11-24')
 }, {
   'id': 10750,
@@ -3475,6 +3970,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 3090,
+  'repos': 45,
   'date': new Date('2014-11-16')
 }, {
   'id': 10751,
@@ -3482,6 +3978,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 4900,
+  'repos': 45,
   'date': new Date('2014-11-05')
 }, {
   'id': 10752,
@@ -3489,6 +3986,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 3465,
+  'repos': 45,
   'date': new Date('2014-11-07')
 }, {
   'id': 10753,
@@ -3496,6 +3994,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 1110,
+  'repos': 45,
   'date': new Date('2014-11-20')
 }, {
   'id': 10755,
@@ -3503,6 +4002,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 5280,
+  'repos': 45,
   'date': new Date('2014-12-04')
 }, {
   'id': 10756,
@@ -3510,6 +4010,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 3075,
+  'repos': 45,
   'date': new Date('2014-12-02')
 }, {
   'id': 10757,
@@ -3517,6 +4018,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 690,
+  'repos': 45,
   'date': new Date('2014-12-07')
 }, {
   'id': 10758,
@@ -3524,6 +4026,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 1305,
+  'repos': 45,
   'date': new Date('2014-12-15')
 }, {
   'id': 10759,
@@ -3531,6 +4034,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 1970,
+  'repos': 45,
   'date': new Date('2014-12-01')
 }, {
   'id': 10760,
@@ -3538,6 +4042,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 3760,
+  'repos': 45,
   'date': new Date('2014-12-18')
 }, {
   'id': 10761,
@@ -3545,6 +4050,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 1920,
+  'repos': 45,
   'date': new Date('2014-12-22')
 }, {
   'id': 10762,
@@ -3552,6 +4058,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 1360,
+  'repos': 45,
   'date': new Date('2014-12-12')
 }, {
   'id': 10763,
@@ -3559,6 +4066,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 2525,
+  'repos': 45,
   'date': new Date('2014-12-06')
 }, {
   'id': 10764,
@@ -3566,6 +4074,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 5575,
+  'repos': 45,
   'date': new Date('2014-12-20')
 }, {
   'id': 10765,
@@ -3573,6 +4082,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 5560,
+  'repos': 45,
   'date': new Date('2014-12-10')
 }, {
   'id': 10766,
@@ -3580,6 +4090,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 4880,
+  'repos': 45,
   'date': new Date('2014-12-13')
 }, {
   'id': 10767,
@@ -3587,6 +4098,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 8850,
+  'repos': 45,
   'date': new Date('2014-12-03')
 }, {
   'id': 10768,
@@ -3594,6 +4106,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 2820,
+  'repos': 45,
   'date': new Date('2014-12-10')
 }, {
   'id': 10769,
@@ -3601,6 +4114,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 4000,
+  'repos': 45,
   'date': new Date('2014-12-12')
 }, {
   'id': 10772,
@@ -3608,6 +4122,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 1310,
+  'repos': 45,
   'date': new Date('2014-12-01')
 }, {
   'id': 10773,
@@ -3615,6 +4130,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 2180,
+  'repos': 45,
   'date': new Date('2014-12-26')
 }, {
   'id': 10774,
@@ -3622,6 +4138,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 4470,
+  'repos': 45,
   'date': new Date('2014-12-17')
 }, {
   'id': 10775,
@@ -3629,6 +4146,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 2990,
+  'repos': 45,
   'date': new Date('2014-12-15')
 }, {
   'id': 10776,
@@ -3636,6 +4154,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 7650,
+  'repos': 45,
   'date': new Date('2014-12-18')
 }, {
   'id': 10777,
@@ -3643,6 +4162,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 780,
+  'repos': 45,
   'date': new Date('2014-12-02')
 }, {
   'id': 10778,
@@ -3650,6 +4170,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 2970,
+  'repos': 45,
   'date': new Date('2014-12-13')
 }, {
   'id': 10779,
@@ -3657,6 +4178,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 1155,
+  'repos': 45,
   'date': new Date('2014-12-05')
 }, {
   'id': 10780,
@@ -3664,6 +4186,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 4470,
+  'repos': 45,
   'date': new Date('2015-01-10')
 }, {
   'id': 10781,
@@ -3671,6 +4194,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 1125,
+  'repos': 45,
   'date': new Date('2015-01-21')
 }, {
   'id': 10782,
@@ -3678,6 +4202,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 645,
+  'repos': 45,
   'date': new Date('2015-01-17')
 }, {
   'id': 10783,
@@ -3685,6 +4210,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 675,
+  'repos': 45,
   'date': new Date('2015-01-05')
 }, {
   'id': 10784,
@@ -3692,6 +4218,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 2840,
+  'repos': 45,
   'date': new Date('2015-01-05')
 }, {
   'id': 10785,
@@ -3699,6 +4226,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 2660,
+  'repos': 45,
   'date': new Date('2015-01-04')
 }, {
   'id': 10786,
@@ -3706,6 +4234,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 4560,
+  'repos': 45,
   'date': new Date('2015-01-12')
 }, {
   'id': 10787,
@@ -3713,6 +4242,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 2880,
+  'repos': 45,
   'date': new Date('2015-01-20')
 }, {
   'id': 10788,
@@ -3720,6 +4250,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 500,
+  'repos': 45,
   'date': new Date('2015-01-02')
 }, {
   'id': 10789,
@@ -3727,6 +4258,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 3925,
+  'repos': 45,
   'date': new Date('2015-01-07')
 }, {
   'id': 10790,
@@ -3734,6 +4266,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 5660,
+  'repos': 45,
   'date': new Date('2015-01-18')
 }, {
   'id': 10791,
@@ -3741,6 +4274,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 1460,
+  'repos': 45,
   'date': new Date('2015-01-22')
 }, {
   'id': 10792,
@@ -3748,6 +4282,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 5040,
+  'repos': 45,
   'date': new Date('2015-01-10')
 }, {
   'id': 10793,
@@ -3755,6 +4290,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 4830,
+  'repos': 45,
   'date': new Date('2015-01-13')
 }, {
   'id': 10794,
@@ -3762,6 +4298,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 3075,
+  'repos': 45,
   'date': new Date('2015-01-22')
 }, {
   'id': 10797,
@@ -3769,6 +4306,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 1930,
+  'repos': 45,
   'date': new Date('2015-01-09')
 }, {
   'id': 10798,
@@ -3776,6 +4314,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 2890,
+  'repos': 45,
   'date': new Date('2015-01-02')
 }, {
   'id': 10799,
@@ -3783,6 +4322,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 1545,
+  'repos': 45,
   'date': new Date('2015-01-17')
 }, {
   'id': 10801,
@@ -3790,6 +4330,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 4035,
+  'repos': 45,
   'date': new Date('2015-01-14')
 }, {
   'id': 10803,
@@ -3797,6 +4338,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 7000,
+  'repos': 45,
   'date': new Date('2015-01-07')
 }, {
   'id': 10804,
@@ -3804,6 +4346,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 3060,
+  'repos': 45,
   'date': new Date('2015-02-13')
 }, {
   'id': 10805,
@@ -3811,6 +4354,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 6425,
+  'repos': 45,
   'date': new Date('2015-02-04')
 }, {
   'id': 10806,
@@ -3818,6 +4362,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 615,
+  'repos': 45,
   'date': new Date('2015-02-22')
 }, {
   'id': 10807,
@@ -3825,6 +4370,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 1755,
+  'repos': 45,
   'date': new Date('2015-02-07')
 }, {
   'id': 10808,
@@ -3832,6 +4378,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 1540,
+  'repos': 45,
   'date': new Date('2015-02-21')
 }, {
   'id': 10809,
@@ -3839,6 +4386,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 2820,
+  'repos': 45,
   'date': new Date('2015-02-24')
 }, {
   'id': 10810,
@@ -3846,6 +4394,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 4305,
+  'repos': 45,
   'date': new Date('2015-02-10')
 }, {
   'id': 10811,
@@ -3853,6 +4402,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 1520,
+  'repos': 45,
   'date': new Date('2015-02-26')
 }, {
   'id': 10812,
@@ -3860,6 +4410,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 4725,
+  'repos': 45,
   'date': new Date('2015-02-18')
 }, {
   'id': 10813,
@@ -3867,6 +4418,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 6750,
+  'repos': 45,
   'date': new Date('2015-02-16')
 }, {
   'id': 10814,
@@ -3874,6 +4426,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 5540,
+  'repos': 45,
   'date': new Date('2015-02-07')
 }, {
   'id': 10815,
@@ -3881,6 +4434,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 1880,
+  'repos': 45,
   'date': new Date('2015-02-24')
 }, {
   'id': 10816,
@@ -3888,6 +4442,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 6180,
+  'repos': 45,
   'date': new Date('2015-02-26')
 }, {
   'id': 10817,
@@ -3895,6 +4450,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 9300,
+  'repos': 45,
   'date': new Date('2015-02-03')
 }, {
   'id': 10818,
@@ -3902,6 +4458,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 3700,
+  'repos': 45,
   'date': new Date('2015-02-26')
 }, {
   'id': 10821,
@@ -3909,6 +4466,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 2570,
+  'repos': 45,
   'date': new Date('2015-02-20')
 }, {
   'id': 10822,
@@ -3916,6 +4474,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 2860,
+  'repos': 45,
   'date': new Date('2015-02-19')
 }, {
   'id': 10823,
@@ -3923,6 +4482,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 5430,
+  'repos': 45,
   'date': new Date('2015-03-21')
 }, {
   'id': 10824,
@@ -3930,6 +4490,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 4525,
+  'repos': 45,
   'date': new Date('2015-03-21')
 }, {
   'id': 10825,
@@ -3937,6 +4498,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 1515,
+  'repos': 45,
   'date': new Date('2015-03-10')
 }, {
   'id': 10826,
@@ -3944,6 +4506,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 630,
+  'repos': 45,
   'date': new Date('2015-03-15')
 }, {
   'id': 10827,
@@ -3951,6 +4514,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 1310,
+  'repos': 45,
   'date': new Date('2015-03-01')
 }, {
   'id': 10828,
@@ -3958,6 +4522,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 3200,
+  'repos': 45,
   'date': new Date('2015-03-17')
 }, {
   'id': 10829,
@@ -3965,6 +4530,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 3945,
+  'repos': 45,
   'date': new Date('2015-03-20')
 }, {
   'id': 10830,
@@ -3972,6 +4538,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 2990,
+  'repos': 45,
   'date': new Date('2015-03-18')
 }, {
   'id': 10831,
@@ -3979,6 +4546,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 1125,
+  'repos': 45,
   'date': new Date('2015-03-22')
 }, {
   'id': 10832,
@@ -3986,6 +4554,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 7950,
+  'repos': 45,
   'date': new Date('2015-03-17')
 }, {
   'id': 10833,
@@ -3993,6 +4562,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 2960,
+  'repos': 45,
   'date': new Date('2015-03-25')
 }, {
   'id': 10834,
@@ -4000,6 +4570,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 6300,
+  'repos': 45,
   'date': new Date('2015-03-20')
 }, {
   'id': 10835,
@@ -4007,6 +4578,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 8670,
+  'repos': 45,
   'date': new Date('2015-03-07')
 }, {
   'id': 10836,
@@ -4014,6 +4586,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 3930,
+  'repos': 45,
   'date': new Date('2015-03-23')
 }, {
   'id': 10837,
@@ -4021,6 +4594,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 6975,
+  'repos': 45,
   'date': new Date('2015-03-02')
 }, {
   'id': 10840,
@@ -4028,6 +4602,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 2380,
+  'repos': 45,
   'date': new Date('2015-03-01')
 }, {
   'id': 10841,
@@ -4035,6 +4610,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1510,
+  'repos': 45,
   'date': new Date('2015-03-07')
 }, {
   'id': 10842,
@@ -4042,6 +4618,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 1020,
+  'repos': 45,
   'date': new Date('2015-03-19')
 }, {
   'id': 10843,
@@ -4049,6 +4626,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 6700,
+  'repos': 45,
   'date': new Date('2015-03-26')
 }, {
   'id': 10844,
@@ -4056,6 +4634,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 4890,
+  'repos': 45,
   'date': new Date('2015-04-02')
 }, {
   'id': 10845,
@@ -4063,6 +4642,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 7225,
+  'repos': 45,
   'date': new Date('2015-04-13')
 }, {
   'id': 10846,
@@ -4070,6 +4650,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 795,
+  'repos': 45,
   'date': new Date('2015-04-07')
 }, {
   'id': 10847,
@@ -4077,6 +4658,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 1785,
+  'repos': 45,
   'date': new Date('2015-04-03')
 }, {
   'id': 10848,
@@ -4084,6 +4666,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 1850,
+  'repos': 45,
   'date': new Date('2015-04-03')
 }, {
   'id': 10849,
@@ -4091,6 +4674,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 5120,
+  'repos': 45,
   'date': new Date('2015-04-12')
 }, {
   'id': 10850,
@@ -4098,6 +4682,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 615,
+  'repos': 45,
   'date': new Date('2015-04-07')
 }, {
   'id': 10851,
@@ -4105,6 +4690,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 2860,
+  'repos': 45,
   'date': new Date('2015-04-05')
 }, {
   'id': 10852,
@@ -4112,6 +4698,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 1525,
+  'repos': 45,
   'date': new Date('2015-04-24')
 }, {
   'id': 10853,
@@ -4119,6 +4706,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 7425,
+  'repos': 45,
   'date': new Date('2015-04-15')
 }, {
   'id': 10854,
@@ -4126,6 +4714,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 6080,
+  'repos': 45,
   'date': new Date('2015-04-13')
 }, {
   'id': 10855,
@@ -4133,6 +4722,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 2940,
+  'repos': 45,
   'date': new Date('2015-04-04')
 }, {
   'id': 10856,
@@ -4140,6 +4730,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 5580,
+  'repos': 45,
   'date': new Date('2015-04-16')
 }, {
   'id': 10857,
@@ -4147,6 +4738,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 9390,
+  'repos': 45,
   'date': new Date('2015-04-19')
 }, {
   'id': 10858,
@@ -4154,6 +4746,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 3200,
+  'repos': 45,
   'date': new Date('2015-04-26')
 }, {
   'id': 10861,
@@ -4161,6 +4754,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 930,
+  'repos': 45,
   'date': new Date('2015-04-25')
 }, {
   'id': 10862,
@@ -4168,6 +4762,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 1910,
+  'repos': 45,
   'date': new Date('2015-04-05')
 }, {
   'id': 10863,
@@ -4175,6 +4770,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 2725,
+  'repos': 45,
   'date': new Date('2015-04-16')
 }, {
   'id': 10865,
@@ -4182,6 +4778,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 5190,
+  'repos': 45,
   'date': new Date('2015-04-10')
 }, {
   'id': 10866,
@@ -4189,6 +4786,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 2800,
+  'repos': 45,
   'date': new Date('2015-04-26')
 }, {
   'id': 10867,
@@ -4196,6 +4794,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 3780,
+  'repos': 45,
   'date': new Date('2015-04-24')
 }, {
   'id': 10868,
@@ -4203,6 +4802,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 2340,
+  'repos': 45,
   'date': new Date('2015-04-17')
 }, {
   'id': 10869,
@@ -4210,6 +4810,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'New York',
   'amount': 4830,
+  'repos': 45,
   'date': new Date('2015-05-12')
 }, {
   'id': 10870,
@@ -4217,6 +4818,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Los Angeles',
   'amount': 2075,
+  'repos': 45,
   'date': new Date('2015-05-23')
 }, {
   'id': 10871,
@@ -4224,6 +4826,7 @@ let MuscleSuivi = [{
   'country': 'Trapèzes',
   'city': 'Denver',
   'amount': 3420,
+  'repos': 45,
   'date': new Date('2015-05-21')
 }, {
   'id': 10872,
@@ -4231,6 +4834,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Vancouver',
   'amount': 1440,
+  'repos': 45,
   'date': new Date('2015-05-10')
 }, {
   'id': 10873,
@@ -4238,6 +4842,7 @@ let MuscleSuivi = [{
   'country': 'Grand pectoral',
   'city': 'Edmonton',
   'amount': 1680,
+  'repos': 45,
   'date': new Date('2015-05-15')
 }, {
   'id': 10874,
@@ -4245,6 +4850,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Rio de Janeiro',
   'amount': 3440,
+  'repos': 45,
   'date': new Date('2015-05-16')
 }, {
   'id': 10875,
@@ -4252,6 +4858,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 4695,
+  'repos': 45,
   'date': new Date('2015-05-10')
 }, {
   'id': 10876,
@@ -4259,6 +4866,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Asuncion',
   'amount': 2380,
+  'repos': 45,
   'date': new Date('2015-05-06')
 }, {
   'id': 10877,
@@ -4266,6 +4874,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs de l\'avant-bras',
   'city': 'London',
   'amount': 1875,
+  'repos': 45,
   'date': new Date('2015-05-25')
 }, {
   'id': 10878,
@@ -4273,6 +4882,7 @@ let MuscleSuivi = [{
   'country': 'Biceps',
   'city': 'Berlin',
   'amount': 7550,
+  'repos': 45,
   'date': new Date('2015-05-14')
 }, {
   'id': 10879,
@@ -4280,6 +4890,7 @@ let MuscleSuivi = [{
   'country': 'Fléchisseurs de l\'avant-bras',
   'city': 'Madrid',
   'amount': 3340,
+  'repos': 45,
   'date': new Date('2015-05-01')
 }, {
   'id': 10880,
@@ -4287,6 +4898,7 @@ let MuscleSuivi = [{
   'country': 'Triceps',
   'city': 'Moscow',
   'amount': 1400,
+  'repos': 45,
   'date': new Date('2015-05-22')
 }, {
   'id': 10881,
@@ -4294,6 +4906,7 @@ let MuscleSuivi = [{
   'country': 'Fessier',
   'city': 'Beijing',
   'amount': 6060,
+  'repos': 45,
   'date': new Date('2015-05-22')
 }, {
   'id': 10882,
@@ -4301,6 +4914,7 @@ let MuscleSuivi = [{
   'country': 'Abducteur',
   'city': 'Tokyo',
   'amount': 8370,
+  'repos': 45,
   'date': new Date('2015-05-13')
 }, {
   'id': 10883,
@@ -4308,6 +4922,7 @@ let MuscleSuivi = [{
   'country': 'Ischio-jambiers',
   'city': 'Seoul',
   'amount': 3550,
+  'repos': 45,
   'date': new Date('2015-05-26')
 }, {
   'id': 10886,
@@ -4315,6 +4930,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Pretoria',
   'amount': 1740,
+  'repos': 45,
   'date': new Date('2015-05-21')
 }, {
   'id': 10887,
@@ -4322,6 +4938,7 @@ let MuscleSuivi = [{
   'country': 'Extenseurs du dos',
   'city': 'Cairo',
   'amount': 500,
+  'repos': 45,
   'date': new Date('2015-05-26')
 }, {
   'id': 10888,
@@ -4329,6 +4946,7 @@ let MuscleSuivi = [{
   'country': 'Droit de l\'abdomen',
   'city': 'Buenos Aires',
   'amount': 780,
+  'repos': 45,
   'date': new Date('2015-05-07')
 }]
 

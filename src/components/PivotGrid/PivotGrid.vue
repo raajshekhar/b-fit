@@ -74,7 +74,7 @@ export default {
           area: 'column'
         }, {
           groupName: 'date',
-          groupInterval: 'month',
+          groupInterval: 'day',
           visible: false
         }, {
           caption: 'Total',
@@ -83,6 +83,13 @@ export default {
           summaryType: 'sum',
           format: 'currency',
           area: 'data'
+        }, {
+          caption: 'Repos',
+          dataField: 'repos',
+          dataType: 'number',
+          summaryType: 'sum',
+          area: 'data',
+          visible: false
         }],
         store: MuscleSuivi
       },
