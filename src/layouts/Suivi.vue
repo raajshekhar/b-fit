@@ -58,10 +58,24 @@
             <q-item-side icon="today" />
             <q-item-main label="Planning" sublabel="Plannifier vos seances" />
           </q-item>
-          <q-item to="/suivi/performance">
-            <q-item-side icon="trending_up" />
-            <q-item-main label="Performance" sublabel="Suivez vos performances" />
-          </q-item>
+            <q-collapsible group="somegroup" icon="trending_up" label="Performance" sublabel="Suivez vos performances">
+              <q-item to="/suivi/performance">
+                <q-item-side icon="trending_up" />
+                <q-item-main label="Performance" sublabel="" />
+            </q-item>
+            <q-item to="/suivi/performance/input">
+              <q-item-side icon="trending_up" />
+              <q-item-main label="Data Input" sublabel="" />
+            </q-item>
+            <q-item to="/suivi/performance/muscle">
+              <q-item-side icon="trending_up" />
+              <q-item-main label="Muscle" sublabel="" />
+            </q-item>
+            <q-item to="/suivi/performance/objective">
+              <q-item-side icon="trending_up" />
+              <q-item-main label="Objectif" sublabel="" />
+            </q-item>
+            </q-collapsible>
         </q-list>
       </q-scroll-area>
     </q-layout-drawer>
