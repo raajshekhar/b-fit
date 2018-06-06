@@ -27,7 +27,10 @@
                     <a href="#">Actualité</a>
                   </li>
                   <li><a href="#">À propos</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li v-if="!userIsAuthenticated"><router-link to="/Auth/signup">Singn Up</router-link></li>
+                  <li v-if="!userIsAuthenticated"><router-link to="/Auth//signin">Singn In</router-link></li>
+                  <li v-if="userIsAuthenticated"><router-link to="/Auth//profile">{{ user.name }}</router-link></li>
+                  <li v-if="userIsAuthenticated"><a href="#" @click="onLogout">Logout</a></li>
                 </ul>
               </nav>
             </div>
@@ -802,6 +805,20 @@ export default {
     let main = document.createElement('script')
     main.setAttribute('src', 'fitness/js/main.js')
     document.head.appendChild(main)
+  },
+  computed: {
+    userIsAuthenticated () {
+      return this.$store.getters.user !== null && this.$store.getters.user !== undefined
+    },
+    user () {
+      return this.$store.getters.user
+    }
+  },
+  methods: {
+    onLogout () {
+      this.$store.dispatch('logout')
+      this.$router.push('/')
+    }
   }
 }
 </script>

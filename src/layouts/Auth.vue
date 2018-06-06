@@ -15,16 +15,10 @@
           <img class="logo" alt="Bfit logo" src="~assets/bfit-logo-black.png">
         </a>
         <q-toolbar-title to="/suivi">
-          Suivi d'activitée
+          Authentification
           <span slot="subtitle">Subtile</span>
         </q-toolbar-title>
       </q-toolbar>
-      <q-tabs>
-        <q-route-tab slot="title" icon="home" to="/" replace hide="icon" label="Home" />
-        <q-route-tab slot="title" icon="fitness_center" to="/suivi" replace hide="icon" label="Suivi d'activitée" />
-        <q-route-tab slot="title" icon="directions_run" to="/anatomie" replace hide="icon" label="Anatomie" />
-        <q-route-tab slot="title" icon="whatshot" to="/hot" replace label="Actualité" />
-      </q-tabs>
     </q-layout-header>
 
     <!-- (Optional) The Footer -->
@@ -46,6 +40,7 @@
     <q-layout-drawer
       side="left"
       v-model="leftDrawer"
+      v-if="userIsAuthenticated"
     >
       <q-scroll-area class="fit q-pa-sm">
         <q-list no-border link inset-separator>
@@ -67,10 +62,10 @@
             <q-item-side icon="today" />
             <q-item-main label="Planning" sublabel="Plannifier vos seances" />
           </q-item>
-            <q-collapsible group="somegroup" icon="trending_up" label="Performance" sublabel="Suivez vos performances">
-              <q-item to="/suivi/performance">
-                <q-item-side icon="trending_up" />
-                <q-item-main label="Performance" sublabel="" />
+          <q-collapsible group="somegroup" icon="trending_up" label="Performance" sublabel="Suivez vos performances">
+            <q-item to="/suivi/performance">
+              <q-item-side icon="trending_up" />
+              <q-item-main label="Performance" sublabel="" />
             </q-item>
             <q-item to="/suivi/performance/input">
               <q-item-side icon="trending_up" />
@@ -84,7 +79,7 @@
               <q-item-side icon="trending_up" />
               <q-item-main label="Objectif" sublabel="" />
             </q-item>
-            </q-collapsible>
+          </q-collapsible>
         </q-list>
       </q-scroll-area>
     </q-layout-drawer>
@@ -98,10 +93,15 @@
 
 <script>
 export default {
-  name: 'LayoutSuivi',
+  name: 'LayoutAuth',
   data () {
     return {
-      leftDrawer: true
+      leftDrawer: false
+    }
+  },
+  computed: {
+    userIsAuthenticated () {
+      return this.$store.getters.user !== null && this.$store.getters.user !== undefined
     }
   },
   methods: {
@@ -114,7 +114,7 @@ export default {
 </script>
 
 <style>
-.logo {
-  max-height: 50px;
-}
+  .logo {
+    max-height: 50px;
+  }
 </style>
