@@ -85,7 +85,15 @@ module.exports = function (ctx) {
         'QTimelineEntry',
         'QInput',
         'QProgress',
-        'QCollapsible'
+        'QCollapsible',
+        'QDatetimePicker',
+        'QDatetime',
+        'QField',
+        'QFab',
+        'QFabAction',
+        'QPageSticky',
+        'QRadio',
+        'QOptionGroup'
       ],
       directives: [
         'Ripple'

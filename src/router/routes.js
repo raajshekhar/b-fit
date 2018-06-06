@@ -6,7 +6,8 @@ export default [
     children: [
       { path: 'dashboard', component: () => import('pages/Dashboard') },
       { path: 'planning', component: () => import('pages/Planning') },
-      { path: 'performance', component: () => import('pages/Performance') }
+      { path: 'performance', component: () => import('pages/Performance') },
+      { path: 'addWorkout', component: () => import('pages/AddWorkout') }
     ]
   },
   {
@@ -23,7 +24,15 @@ export default [
       { path: '', component: () => import('pages/FilActu') }
     ]
   },
-
+  {
+    path: '/Auth',
+    component: () => import('layouts/Auth'),
+    children: [
+      { path: 'profile', component: () => import('pages/Profile') },
+      { path: 'signin', component: () => import('pages/Signin') },
+      { path: 'signup', component: () => import('pages/Signup') }
+    ]
+  },
   { // Always leave this as last one
     path: '*',
     component: () => import('pages/404')
