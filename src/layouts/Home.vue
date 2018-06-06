@@ -823,7 +823,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   @import '../fitness/css/animate.css';
   @import '../fitness/css/icomoon.css';
   @import '../fitness/css/bootstrap.css';

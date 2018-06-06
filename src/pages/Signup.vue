@@ -12,28 +12,26 @@
       </q-field>
 
       <q-field
-              helper="Mot de passe"
-              :error="$v.password.$error"
-              error-label="Please type a valid password"
-              count
-              :after="[
-                {
-                  icon: 'warning',
-                  error: true,
-                  handler () {
-                    // do something...
-                  }
-                }
-              ]"
+        helper="Mot de passe"
+        :error="$v.password.$error"
+        error-label="Please type a valid password"
+        count
       >
-        <q-input dark color="secondary"  v-model="confirmPassword" type="password" :after="[{icon: 'done', condition: password.length >= 5, handler () {}}]" @blur="$v.password.$touch"/>
+        <q-input dark color="secondary"  v-model="$v.password.$model" type="password" @blur="$v.password.$touch"/>
+      </q-field>
+      <q-field
+        helper="Mot de passe"
+        :error="!$v.repeatPassword.sameAsPassword"
+        error-label="Please typethe same password"
+        count
+      >
+        <q-input dark color="secondary"  v-model="$v.repeatPassword.$model" type="password"/>
       </q-field>
       <div class="column docs-btn">
         <q-btn color="negative" icon-right="https" label="Sign up" class="btn-fixed-width"  @click="submit"/>
-        <q-btn color="negative" icon-right="https" label="Sign up with google" class="btn-fixed-width"  @click="submit"/>
+        <q-btn color="negative" icon-right="https" label="Sign up with google" class="btn-fixed-width" @click.prevent="onSigninGoogle"/>
         <q-btn color="negative" icon-right="https" label="Sign up with facebook" class="btn-fixed-width"  @click="submit"/>
       </div>
-
     </div>
   </q-page>
 </template>
@@ -46,7 +44,7 @@ export default {
     return {
       password: '',
       email: '',
-      confirmPassword: ''
+      repeatPassword: ''
     }
   },
   methods: {
@@ -58,6 +56,9 @@ export default {
           position: 'top'
         })
       }
+    },
+    onSigninGoogle () {
+      this.$store.dispatch('signUserInGoogle')
     }
   },
   validations: {
@@ -66,7 +67,30 @@ export default {
       required,
       minLength: minLength(6)
     },
-    confirmPassword: sameAs('password')
+    repeatPassword: {
+      sameAsPassword: sameAs('password')
+    }
+  },
+  computed: {
+    comparePasswords () {
+      return this.password !== this.confirmPassword ? 'Passwords do not match' : ''
+    },
+    user () {
+      return this.$store.getters.user
+    },
+    error () {
+      return this.$store.getters.error
+    },
+    loading () {
+      return this.$store.getters.loading
+    }
+  },
+  watch: {
+    user (value) {
+      if (value !== null && value !== undefined) {
+        this.$router.push('/Auth/profile')
+      }
+    }
   }
 }
 </script>

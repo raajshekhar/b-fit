@@ -1,12 +1,19 @@
 <template>
   <q-page padding>
-    <!-- content -->
+    <h1 >Login Success</h1>
+    <h4 ><b >Name :</b> {{ user.name }}</h4>
+    <h4 ><b >Email :</b> {{ user.email }}</h4>
   </q-page>
 </template>
 
 <script>
 export default {
-  // name: 'PageName',
+  name: 'PageProfile',
+  computed: {
+    user () {
+      return this.$store.getters.user
+    }
+  }
 }
 </script>
 
