@@ -1,4 +1,5 @@
 import * as firebase from 'firebase'
+import { AUTH } from '../../plugins/firebase'
 
 export default {
   state: {
@@ -11,12 +12,13 @@ export default {
   },
   actions: {
     signUserUp ({commit}, payload) {
-      commit('setLoading', true)
-      commit('clearError')
+      // commit('setLoading', true)
+      // commit('clearError')
       firebase.auth().createUserWithEmailAndPassword(payload.email, payload.password)
         .then(
           user => {
-            commit('setLoading', false)
+            // commit('setLoading', false)
+            debugger
             const newUser = {
               id: user.uid,
               name: user.displayName,
@@ -61,7 +63,7 @@ export default {
     signUserInGoogle ({commit}) {
       commit('setLoading', true)
       commit('clearError')
-      firebase.auth().signInWithPopup(new firebase.auth.GoogleAuthProvider())
+      AUTH.signInWithPopup(new firebase.auth.GoogleAuthProvider())
         .then(
           user => {
             commit('setLoading', false)

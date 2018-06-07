@@ -7,8 +7,15 @@ Vue.use(Vuex)
 
 const store = new Vuex.Store({
   modules: {
-    user: user
+    user
   }
 })
+
+if (process.env.DEV && module.hot) {
+  module.hot.accept(['./user'], () => {
+    const newShowcase = require('./user').default
+    store.hotUpdate({ modules: { showcase: newShowcase } })
+  })
+}
 
 export default store

@@ -20,7 +20,7 @@
         <q-input dark color="secondary"  v-model="$v.password.$model" type="password" @blur="$v.password.$touch"/>
       </q-field>
       <q-field
-        helper="Mot de passe"
+        helper="Repeat mot de passe"
         :error="!$v.repeatPassword.sameAsPassword"
         error-label="Please typethe same password"
         count
@@ -72,9 +72,6 @@ export default {
     }
   },
   computed: {
-    comparePasswords () {
-      return this.password !== this.confirmPassword ? 'Passwords do not match' : ''
-    },
     user () {
       return this.$store.getters.user
     },

@@ -1,6 +1,6 @@
-import Firebase from 'firebase'
+import firebase from 'firebase'
 
-var config = {
+const config = {
   apiKey: 'AIzaSyBxx6jNekMSdxFgae48X5EPXSU7BCd8ID0',
   authDomain: 'b-fit-572b6.firebaseapp.com',
   databaseURL: 'https://b-fit-572b6.firebaseio.com',
@@ -9,28 +9,10 @@ var config = {
   messagingSenderId: '724954804441'
 }
 
-const connection = Firebase.initializeApp(config)
+export const fireApp = firebase.initializeApp(config)
 
-const DB = connection.database()
-const AUTH = connection.auth()
+export const AUTH = fireApp.auth()
 
-export default function install (Vue, { router }) {
-  AUTH.onAuthStateChanged(user => {
-    if (!user) {
-      this.$store.dispatch('autoSignIn', user)
-    }
-  })
-
-  Object.defineProperties(Vue.prototype, {
-    $db: {
-      get () {
-        return DB
-      }
-    },
-    $auth: {
-      get () {
-        return AUTH
-      }
-    }
-  })
+export default ({ app, router, Vue }) => {
+  Vue.prototype.$auth = AUTH
 }
