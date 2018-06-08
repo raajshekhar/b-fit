@@ -1,4 +1,4 @@
-
+// import AuthGuard from './auth-guard'
 export default [
   {
     path: '/Suivi',
@@ -32,6 +32,7 @@ export default [
       { path: 'signin', component: () => import('pages/Signin') },
       { path: 'signup', component: () => import('pages/Signup') }
     ]
+    // beforeEnter: AuthGuard
   },
   { // Always leave this as last one
     path: '*',

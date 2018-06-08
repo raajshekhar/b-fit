@@ -65,13 +65,13 @@ export default {
       commit('clearError')
       AUTH.signInWithPopup(new firebase.auth.GoogleAuthProvider())
         .then(
-          user => {
+          result => {
             commit('setLoading', false)
             const newUser = {
-              id: user.uid,
-              name: user.displayName,
-              email: user.email,
-              photoUrl: user.photoURL
+              id: result.user.uid,
+              name: result.user.displayName,
+              email: result.user.email,
+              photoUrl: result.user.photoURL
             }
             commit('setUser', newUser)
           }
