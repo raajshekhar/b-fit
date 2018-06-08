@@ -49,9 +49,9 @@
             <q-item-side icon="account_circle" />
             <q-item-main label="Profile" sublabel="Mon Profile" />
           </q-item>
-          <q-item @click="onLogout">
+          <q-item>
             <q-item-side icon="today" />
-            <q-item-main label="Logout" sublabel="Se déconnecter" />
+            <q-item-main @click="onLogout" label="Logout" sublabel="Se déconnecter" />
           </q-item>
           <q-list-header>Mon suivi</q-list-header>
           <q-item to="/suivi/dashboard">
