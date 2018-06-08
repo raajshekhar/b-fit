@@ -1,4 +1,4 @@
-import firebase from 'firebase'
+import * as firebase from 'firebase'
 
 const config = {
   apiKey: 'AIzaSyBxx6jNekMSdxFgae48X5EPXSU7BCd8ID0',
@@ -15,4 +15,5 @@ export const AUTH = fireApp.auth()
 
 export default ({ app, router, Vue }) => {
   Vue.prototype.$auth = AUTH
+  Vue.prototype.$fireApp = fireApp
 }

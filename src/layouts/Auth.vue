@@ -49,7 +49,7 @@
             <q-item-side icon="account_circle" />
             <q-item-main label="Profile" sublabel="Mon Profile" />
           </q-item>
-          <q-item>
+          <q-item @click="onLogout" >
             <q-item-side icon="today" />
             <q-item-main @click="onLogout" label="Logout" sublabel="Se déconnecter" />
           </q-item>
