@@ -2,19 +2,21 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 import user from './user'
+import shared from './shared'
 
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
   modules: {
-    user
+    user,
+    shared
   }
 })
 
 if (process.env.DEV && module.hot) {
   module.hot.accept(['./user'], () => {
-    const newShowcase = require('./user').default
-    store.hotUpdate({ modules: { showcase: newShowcase } })
+    const newUser = require('./user').default
+    store.hotUpdate({ modules: { user: newUser } })
   })
 }
 
