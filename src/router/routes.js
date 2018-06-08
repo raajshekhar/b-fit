@@ -1,4 +1,4 @@
-
+import AuthGuard from './auth-guard'
 export default [
   {
     path: '/Suivi',
@@ -8,7 +8,8 @@ export default [
       { path: 'planning', component: () => import('pages/Planning') },
       { path: 'performance', component: () => import('pages/Performance') },
       { path: 'addWorkout', component: () => import('pages/AddWorkout') }
-    ]
+    ],
+    beforeEnter: AuthGuard
   },
   {
     path: '/',
@@ -28,10 +29,11 @@ export default [
     path: '/Auth',
     component: () => import('layouts/Auth'),
     children: [
-      { path: 'profile', component: () => import('pages/Profile') },
+      { path: 'profile', component: () => import('pages/Profile'), beforeEnter: AuthGuard },
       { path: 'signin', component: () => import('pages/Signin') },
       { path: 'signup', component: () => import('pages/Signup') }
     ]
+    // beforeEnter: AuthGuard
   },
   { // Always leave this as last one
     path: '*',

@@ -23,7 +23,7 @@
         <q-btn color="negative" icon-right="https" label="Sign in" class="btn-fixed-width"  @click="submit"/>
         <q-btn color="negative" icon-right="https" label="Sign in with google" class="btn-fixed-width" @click.prevent="onSigninGoogle"/>
         <q-btn color="negative" icon-right="https" label="Sign in with facebook" class="btn-fixed-width"  @click="submit"/>
-        <q-btn color="red" icon-right="email" label="Rest Password" class="btn-fixed-width"  @click.prevent="onResetPassword"/>
+        <q-btn color="red" icon-right="email" label="Rest Password" class="btn-fixed-width" @click="reset" @click.prevent="onResetPassword"/>
       </div>
     </div>
   </q-page>
@@ -45,6 +45,15 @@ export default {
       if (this.$v.$invalid) {
         this.$q.notify({
           message: 'Formulaire invalide !',
+          position: 'top'
+        })
+      }
+    },
+    reset () {
+      console.log(this.$v.email.$error)
+      if (this.$v.email.$error) {
+        this.$q.notify({
+          message: 'Email requis',
           position: 'top'
         })
       }
