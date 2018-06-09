@@ -28,7 +28,7 @@
         <q-input dark color="secondary"  v-model="$v.repeatPassword.$model" type="password"/>
       </q-field>
       <div class="column docs-btn">
-        <q-btn color="negative" icon-right="https" label="Sign up" class="btn-fixed-width"  @click="submit"/>
+        <q-btn color="negative" icon-right="https" label="Sign up" class="btn-fixed-width" @click.prevent="signUserUp"  @click="submit"/>
         <q-btn color="negative" icon-right="https" label="Sign up with google" class="btn-fixed-width" @click.prevent="onSigninGoogle"/>
         <q-btn color="negative" icon-right="https" label="Sign up with facebook" class="btn-fixed-width"  @click="submit"/>
       </div>
@@ -55,10 +55,19 @@ export default {
           message: 'Formulaire invalide !',
           position: 'top'
         })
+      } else {
+        this.$q.notify({
+          message: 'Succefully singup !',
+          position: 'top',
+          color: 'green-13'
+        })
       }
     },
     onSigninGoogle () {
       this.$store.dispatch('signUserInGoogle')
+    },
+    onSignin () {
+      this.$store.dispatch('signUserIn', {email: this.email, password: this.password})
     }
   },
   validations: {

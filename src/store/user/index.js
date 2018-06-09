@@ -12,12 +12,12 @@ export default {
   },
   actions: {
     signUserUp ({commit}, payload) {
-      // commit('setLoading', true)
-      // commit('clearError')
+      commit('setLoading', true)
+      commit('clearError')
       firebase.auth().createUserWithEmailAndPassword(payload.email, payload.password)
         .then(
           user => {
-            // commit('setLoading', false)
+            commit('setLoading', false)
             debugger
             const newUser = {
               id: user.uid,
