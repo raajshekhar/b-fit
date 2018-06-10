@@ -16,14 +16,13 @@ export default {
       commit('clearError')
       firebase.auth().createUserWithEmailAndPassword(payload.email, payload.password)
         .then(
-          user => {
+          result => {
             commit('setLoading', false)
-            debugger
             const newUser = {
-              id: user.uid,
-              name: user.displayName,
-              email: user.email,
-              photoUrl: user.photoURL
+              id: result.user.uid,
+              name: result.user.displayName,
+              email: result.user.email,
+              photoUrl: result.user.photoURL
             }
             commit('setUser', newUser)
           }
@@ -41,13 +40,13 @@ export default {
       commit('clearError')
       firebase.auth().signInWithEmailAndPassword(payload.email, payload.password)
         .then(
-          user => {
+          result => {
             commit('setLoading', false)
             const newUser = {
-              id: user.uid,
-              name: user.displayName,
-              email: user.email,
-              photoUrl: user.photoURL
+              id: result.user.uid,
+              name: result.user.displayName,
+              email: result.user.email,
+              photoUrl: result.user.photoURL
             }
             commit('setUser', newUser)
           }

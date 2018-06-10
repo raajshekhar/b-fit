@@ -11,9 +11,9 @@
           icon="menu"
           @click="leftDrawer = !leftDrawer"
         />
-        <a href="">
+        <router-link :to="{ name: 'home' }">
           <img class="logo" alt="Bfit logo" src="~assets/bfit-logo-black.png">
-        </a>
+        </router-link>
         <q-toolbar-title to="/suivi">
           Authentification
           <span slot="subtitle">Subtile</span>
@@ -45,16 +45,16 @@
       <q-scroll-area class="fit q-pa-sm">
         <q-list no-border link inset-separator>
           <q-list-header>Mon compte</q-list-header>
-          <q-item to="/Auth/profile">
+          <q-item :to="{ name: 'profile' }">
             <q-item-side icon="account_circle" />
             <q-item-main label="Profile" sublabel="Mon Profile" />
           </q-item>
-          <q-item @click="onLogout" >
+          <q-item @click.prevent="onLogout" >
             <q-item-side icon="today" />
-            <q-item-main @click="onLogout" label="Logout" sublabel="Se déconnecter" />
+            <q-item-main label="Logout" sublabel="Se déconnecter" />
           </q-item>
           <q-list-header>Mon suivi</q-list-header>
-          <q-item to="/suivi/dashboard">
+          <q-item :to="{ name: 'dashboard' }">
             <q-item-side icon="dashboard" />
             <q-item-main label="Dashbord" sublabel="Accéder a votre tableau de bord" />
           </q-item>
@@ -107,7 +107,7 @@ export default {
   methods: {
     onLogout () {
       this.$store.dispatch('logout')
-      this.$router.push('/')
+      this.$router.push({ name: 'home' })
     }
   }
 }

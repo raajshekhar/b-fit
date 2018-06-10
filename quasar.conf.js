@@ -40,7 +40,13 @@ module.exports = function (ctx) {
           test: /\.css$/,
           use: [
             { loader: 'style-loader' },
-            { loader: 'css-loader' }
+            {
+              loader: 'css-loader',
+              options: {
+                importLoaders: 1 // 0 => no loaders (default); 1 => postcss-loader; 2 => postcss-loader, sass-loader
+              }
+            },
+            'postcss-loader'
           ],
           exclude: /(node_modules|quasar)/
         })
