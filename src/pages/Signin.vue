@@ -20,7 +20,7 @@
         <q-input dark color="secondary"  v-model="$v.password.$model" type="password" @blur="$v.password.$touch"/>
       </q-field>
       <div class="column docs-btn">
-        <q-btn color="negative" icon-right="https" label="Sign in" class="btn-fixed-width"  @click="submit"/>
+        <q-btn color="negative" icon-right="https" label="Sign in" class="btn-fixed-width" @click.prevent="onSignin" @click="submit"/>
         <q-btn color="negative" icon-right="https" label="Sign in with google" class="btn-fixed-width" @click.prevent="onSigninGoogle"/>
         <q-btn color="negative" icon-right="https" label="Sign in with facebook" class="btn-fixed-width"  @click="submit"/>
         <q-btn color="red" icon-right="email" label="Rest Password" class="btn-fixed-width" @click="reset" @click.prevent="onResetPassword"/>

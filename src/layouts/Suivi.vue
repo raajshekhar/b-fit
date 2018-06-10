@@ -11,9 +11,9 @@
           icon="menu"
           @click="leftDrawer = !leftDrawer"
         />
-        <a href="">
+        <router-link :to="{ name: 'home' }">
           <img class="logo" alt="Bfit logo" src="~assets/bfit-logo-black.png">
-        </a>
+        </router-link>
         <q-toolbar-title to="/suivi">
           Suivi d'activitée
           <span slot="subtitle">Subtile</span>

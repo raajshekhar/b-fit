@@ -13,7 +13,12 @@ export const fireApp = firebase.initializeApp(config)
 
 export const AUTH = fireApp.auth()
 
-export default ({ app, router, Vue }) => {
+export default ({ app, router, store, Vue }) => {
   Vue.prototype.$auth = AUTH
   Vue.prototype.$fireApp = fireApp
+  AUTH.onAuthStateChanged((user) => {
+    if (user) {
+      store.dispatch('autoSignIn', user)
+    }
+  })
 }
