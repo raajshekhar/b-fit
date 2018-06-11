@@ -37,25 +37,14 @@ module.exports = function (ctx) {
           loader: 'eslint-loader',
           exclude: /(node_modules|quasar)/
         }, {
-          test: /\.css$/,
-          use: [
-            { loader: 'style-loader' },
-            {
-              loader: 'css-loader',
-              options: {
-                importLoaders: 1 // 0 => no loaders (default); 1 => postcss-loader; 2 => postcss-loader, sass-loader
-              }
-            },
-            'postcss-loader'
-          ],
-          exclude: /(node_modules|quasar)/
+          test: /\.css$/, exclude: /(node_modules|quasar)/, loader: 'style-loader!css-loader'
         })
       }
     },
     devServer: {
       // https: true,
       // port: 8080,
-      open: true // opens browser window automatically
+      open: false // opens browser window automatically
     },
     // framework: 'all' --- includes everything; for dev only!
     framework: {

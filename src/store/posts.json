@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+    "id": 1,
+    "title": "Title 1",
+    "author": "Author 1",
+    "date": "01/06/2018",
+    "content": "Content 1"
+  },
+  {
+    "id": 2,
+    "title": "Title 2",
+    "author": "Author 2",
+    "date": "02/06/2018",
+    "content": "Content 2"
+  },
+    {
+      "id": 3,
+      "title": "Title 3",
+      "author": "Author 3",
+      "date": "03/06/2018",
+      "content": "Content 3"
+    },
+    {
+      "id": 1,
+      "title": "Title 4",
+      "author": "Author 4",
+      "date": "04/06/2018",
+      "content": "Content 4"
+    }
+  ]
+}
