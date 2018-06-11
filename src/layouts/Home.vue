@@ -27,8 +27,8 @@
                     <a href="#">Actualité</a>
                   </li>
                   <li><a href="#">À propos</a></li>
-                  <li v-if="!userIsAuthenticated"><router-link :to="{ name: 'signup' }">Singn Up</router-link></li>
-                  <li v-if="!userIsAuthenticated"><router-link :to="{ name: 'signin' }">Singn In</router-link></li>
+                  <li v-if="!userIsAuthenticated"><router-link :to="{ name: 'signup' }">Sign Up</router-link></li>
+                  <li v-if="!userIsAuthenticated"><router-link :to="{ name: 'signin' }">Sign In</router-link></li>
                   <li v-if="userIsAuthenticated"><router-link :to="{ name: 'profile' }">{{ user.name }}</router-link></li>
                   <li v-if="userIsAuthenticated"><a href="#" @click="onLogout">Logout</a></li>
                 </ul>
