@@ -3,7 +3,7 @@
     <div id="fh5co-page">
       <div id="fh5co-header">
         <header id="fh5co-header-section">
-          <div class="container boot-scoped">
+          <div class="container">
             <div class="nav-header">
               <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
               <h1 id="fh5co-logo"><router-link :to="{ name: 'home' }">B-<span>FIT</span></router-link></h1>
@@ -24,12 +24,15 @@
                     </ul>
                   </li>
                   <li>
-                    <a href="#">Actualité</a>
+                    <router-link :to="{ name: 'hot' }">Actualité</router-link>
+                  </li>
+                  <li>
+                    <router-link :to="{ name: 'hot' }">Actualité</router-link>
                   </li>
                   <li><a href="#">À propos</a></li>
-                  <li v-if="!userIsAuthenticated"><router-link :to="{ name: 'signup' }">Sign Up</router-link></li>
-                  <li v-if="!userIsAuthenticated"><router-link :to="{ name: 'signin' }">Sign In</router-link></li>
-                  <li v-if="userIsAuthenticated"><router-link :to="{ name: 'profile' }">{{ user.name }}</router-link></li>
+                  <li v-if="!userIsAuthenticated"><router-link @click="navigate" :to="{ name: 'signup' }">Singn Up</router-link></li>
+                  <li v-if="!userIsAuthenticated"><router-link @click="navigate" :to="{ name: 'signin' }">Singn In</router-link></li>
+                  <li v-if="userIsAuthenticated"><router-link @click="navigate" :to="{ name: 'profile' }">{{ user.name }}</router-link></li>
                   <li v-if="userIsAuthenticated"><a href="#" @click="onLogout">Logout</a></li>
                 </ul>
               </nav>
@@ -47,7 +50,7 @@
                 <div class="col-md-7">
                   <h2>Préparez vous pour le meilleur entraînement<br>de<b> Votre vie !</b></h2>
                   <p><span>Le suivi sportif <i class="icon-heart3"></i> sur le bout de vos doigts</span></p>
-                  <span><a class="btn btn-primary" href="/suivi">Commencez votre aventure</a></span>
+                  <span><router-link :to="{ name: 'dashboard' }" class="btn btn-primary">Commencez votre aventure</router-link></span>
                 </div>
               </div>
             </div>
@@ -765,13 +768,20 @@
 
 <script>
 import '../fitness/js/jquery.min.js'
-import '../fitness/js/bootstrap.min.js'
-// import '../fitness/css/bootstrap.css'
+import 'jquery'
+import 'bootstrap'
+import bootstrap from 'bootstrap/dist/css/bootstrap2.css'
 export default {
   name: 'LayoutHome',
   data () {
     return {
+      loading: false
     }
+  },
+  mounted: function () {
+    this.$store.dispatch('getAllPost')
+    console.log(this.getAllPost)
+    this.loading = true
   },
   created () {
     // modernizer
@@ -813,6 +823,9 @@ export default {
     },
     user () {
       return this.$store.getters.user
+    },
+    getLastPost: function () {
+      return this.$store.getters.post
     }
   },
   methods: {
@@ -820,19 +833,16 @@ export default {
       this.$store.dispatch('logout')
       this.$router.push('/')
     },
-    navigate (route) {
-      this.$router.push(route)
+    navigate () {
+      bootstrap.unuse()
     }
   }
 }
 </script>
 
 <style scoped>
-  :local(.boot-scoped) {
   @import '../fitness/css/animate.css';
   @import '../fitness/css/icomoon.css';
-  @import '../fitness/css/bootstrap.css';
   @import '../fitness/css/superfish.css';
   @import '../fitness/css/style.css';
-  }
 </style>

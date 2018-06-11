@@ -20,7 +20,7 @@
         <h2>{{employee.text}}</h2>
       </div>
       <div class='avatar'>
-        <img :src="employee.data.avatar" />
+        <img :src="user.photoUrl" />
       </div>
       <div class='info' :style="{'color': employee.color}">
         Age: {{employee.data.age}}
@@ -42,6 +42,9 @@ export default {
   name: 'scheduler',
   components: {
     DxScheduler
+  },
+  props: {
+    user: Object
   },
   data () {
     return {
