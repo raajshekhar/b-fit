@@ -24,9 +24,8 @@ export default [
     path: '/hot',
     component: () => import('layouts/Suivi'),
     children: [
-      { path: '', component: () => import('pages/FilActu') }
-    ],
-    name: 'hot'
+      { path: '', component: () => import('pages/FilActu'), name: 'hot' }
+    ]
   },
   {
     path: '/Auth',

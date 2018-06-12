@@ -72,7 +72,7 @@
                 <q-item-side icon="trending_up" />
                 <q-item-main label="Performance" sublabel="" />
             </q-item>
-            <q-item to="/suivi/performance/input">
+            <q-item :to="{ name: 'addWorkout' }">
               <q-item-side icon="trending_up" />
               <q-item-main label="Data Input" sublabel="" />
             </q-item>
