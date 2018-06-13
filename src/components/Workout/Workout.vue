@@ -1,9 +1,11 @@
 <template>
-    <div>
-      <p class="caption">Workout</p>
-      <q-datetime color="primary" v-model="date6" type="datetime" float-label="Date & Time" />
-      <p class="caption">On a dark background</p>
-      <div class="dark-example">
+    <div class="dark-example">
+      <h3 class="caption">Workout</h3>
+      <q-datetime color="secondary" v-model="date6" type="datetime" float-label="Date & Time" inverted/>
+      <q-input color="secondary" v-model="text" float-label="Float label & placeholder" placeholder="Placeholder" inverted/>
+
+      <p class="q-display-2 text-center text-secondary">OU</p>
+<!--      <div class="dark-example">
         <q-field
           icon="vibration"
           helper="Pick one type"
@@ -21,7 +23,7 @@
             ]"
           />
         </q-field>
-      </div>
+      </div>-->
       <q-btn color="primary" @click="submit">Submit</q-btn>
       <q-page-sticky position="bottom-right" :offset="[18, 18]">
         <q-btn
