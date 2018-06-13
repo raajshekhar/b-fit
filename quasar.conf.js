@@ -64,6 +64,8 @@ module.exports = function (ctx) {
         'QItem',
         'QItemMain',
         'QItemSide',
+        'QItemSeparator',
+        'QItemTile',
         'QTabs',
         'QTab',
         'QTabPane',
@@ -90,7 +92,10 @@ module.exports = function (ctx) {
         'QFabAction',
         'QPageSticky',
         'QRadio',
-        'QOptionGroup'
+        'QOptionGroup',
+        'QStepper',
+        'QStep',
+        'QStepperNavigation'
       ],
       directives: [
         'Ripple'

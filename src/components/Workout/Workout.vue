@@ -1,38 +1,71 @@
 <template>
-    <div class="dark-example">
-      <h3 class="caption">Workout</h3>
-      <q-datetime color="secondary" v-model="date6" type="datetime" float-label="Date & Time" inverted/>
-      <q-input color="secondary" v-model="text" float-label="Float label & placeholder" placeholder="Placeholder" inverted/>
-
-      <p class="q-display-2 text-center text-secondary">OU</p>
-<!--      <div class="dark-example">
-        <q-field
-          icon="vibration"
-          helper="Pick one type"
-          label="Séances"
-        >
-          <q-option-group
-            dark
-            type="radio"
+    <div>
+      <q-stepper ref="stepper">
+        <!-- Step: -->
+        <q-step default title="First Step" subtitle="Workout">
+          <q-toggle v-model="check2" color="secondary" label="New workout ?" />
+          <q-datetime color="secondary" v-model="date6" type="datetime" float-label="Date & Time" inverted/>
+          <div v-if="check2">
+            <p class="q-display-2 text-center text-secondary">New Workout</p>
+            <q-input color="secondary" v-model="text" float-label="Float label & placeholder" placeholder="Placeholder"/>
+          </div>
+          <div v-if="!check2">
+            <p class="q-display-2 text-center text-secondary">My Workout</p>
+            <q-list link>
+              <q-item tag="label">
+                <q-item-side>
+                  <q-radio color="secondary" v-model="list" val="one" />
+                </q-item-side>
+                <q-item-main>
+                  <q-item-tile label>Push Up Routine</q-item-tile>
+                  <q-item-tile sublabel>Diamond push up, Regular push up, Decline push up</q-item-tile>
+                </q-item-main>
+              </q-item>
+              <q-item tag="label">
+                <q-item-side>
+                  <q-radio color="secondary" v-model="list" val="two" />
+                </q-item-side>
+                <q-item-main>
+                  <q-item-tile label>Pull Up Routine</q-item-tile>
+                  <q-item-tile sublabel>Pull Up, Pull Up Army, Pull Up army</q-item-tile>
+                </q-item-main>
+              </q-item>
+            </q-list>
+          </div>
+        </q-step>
+        <!-- Step: -->
+        <q-step title="Step 2" subtitle="Exercices">
+          <q-select
+            multiple
+            chips
             color="secondary"
-            v-model="group"
-            :options="[
-              { label: 'Battery too low', value: 'bat' },
-              { label: 'Friend request', value: 'friend' },
-              { label: 'Picture uploaded', value: 'upload', color: 'red' }
-            ]"
+            float-label="Pick Exercice"
+            v-model="multipleSelect"
+            :options="exerciceOption"
           />
-        </q-field>
-      </div>-->
-      <q-btn color="primary" @click="submit">Submit</q-btn>
-      <q-page-sticky position="bottom-right" :offset="[18, 18]">
-        <q-btn
-          round
-          color="primary"
-          @click="alert"
-          icon="add"
-        />
-      </q-page-sticky>
+          <q-list>
+            <q-item v-if="multipleSelect.length != 0" tag="label" v-for="exercice in multipleSelect" :key="exercice.id">
+              <q-item-main>
+                <q-item-tile label>{{ exercice }}</q-item-tile>
+              </q-item-main>
+            </q-item>
+          </q-list>
+        </q-step>
+        <!-- Step: -->
+        <q-step title="Step 3" subtitle="Valider">Recap workout</q-step>
+        <q-stepper-navigation>
+          <q-btn
+            flat
+            @click="$refs.stepper.previous()"
+            label="Back"
+          />
+          <q-btn
+            @click="$refs.stepper.next()"
+            label="Next"
+          />
+        </q-stepper-navigation>
+      </q-stepper>
+
     </div>
 </template>
 
@@ -45,6 +78,7 @@ const { startOfDate, addToDate, subtractFromDate } = date
 export default {
   data () {
     return {
+      check2: false,
       date6: null,
       lazy: null,
       error: true,
@@ -58,7 +92,45 @@ export default {
       radio2: 'one',
       radio3: 'three',
       group: 'upload',
-      list: ''
+      list: '',
+      exerciceOption: [
+        {
+          id: 1,
+          label: 'Google',
+          icon: 'email',
+          value: 'goog'
+        },
+        {
+          id: 2,
+          label: 'Facebook',
+          icon: 'chat',
+          description: 'Enables communication',
+          value: 'fb'
+        },
+        {
+          id: 3,
+          label: 'Twitter',
+          inset: true,
+          rightIcon: 'live_help',
+          value: 'twtr'
+        },
+        {
+          id: 4,
+          label: 'Apple Inc.',
+          inset: true,
+          stamp: '10 min',
+          value: 'appl'
+        },
+        {
+          id: 5,
+          label: 'Oracle',
+          description: 'Some Java for today?',
+          icon: 'unarchive',
+          rightIcon: 'widgets',
+          value: 'ora'
+        }
+      ],
+      multipleSelect: ['goog', 'twtr']
     }
   },
   watch: {
