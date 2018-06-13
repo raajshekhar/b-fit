@@ -1,12 +1,12 @@
 <template>
-  <div id="fh5co-wrapper">
+  <div id="fh5co-wrapper ">
     <div id="fh5co-page">
       <div id="fh5co-header">
         <header id="fh5co-header-section">
           <div class="container">
             <div class="nav-header">
               <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-              <h1 id="fh5co-logo"><a to="/" href="#">B-<span>FIT</span></a></h1>
+              <h1 id="fh5co-logo"><router-link :to="{ name: 'home' }">B-<span>FIT</span></router-link></h1>
               <!-- START #fh5co-menu-wrap -->
               <nav id="fh5co-menu-wrap" role="navigation">
                 <ul class="sf-menu" id="fh5co-primary-menu">
@@ -16,18 +16,24 @@
                   <li>
                     <a  href="/suivi" class="fh5co-sub-ddown">Mon suivi</a>
                     <ul class="fh5co-sub-menu">
-                      <li><a href="/suivi/dashboard">Tableau de bord</a></li>
-                      <li><a href="/suivi/planning">Planning</a></li>
+                      <li><router-link :to="{ name: 'dashboard' }">Tableau de bord</router-link></li>
+                      <li><router-link :to="{ name: 'planning' }">Planning</router-link></li>
                       <li>
-                        <a href="/suivi/performance" class="fh5co-sub-ddown">Performance</a>
+                        <router-link :to="{ name: 'performance' }" class="fh5co-sub-ddown">Performance</router-link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="#">Actualités</a>
+                    <router-link :to="{ name: 'hot' }">Actualité</router-link>
+                  </li>
+                  <li>
+                    <router-link :to="{ name: 'hot' }">Actualité</router-link>
                   </li>
                   <li><a href="#">À propos</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li v-if="!userIsAuthenticated"><router-link @click="navigate" :to="{ name: 'signup' }">Singn Up</router-link></li>
+                  <li v-if="!userIsAuthenticated"><router-link @click="navigate" :to="{ name: 'signin' }">Singn In</router-link></li>
+                  <li v-if="userIsAuthenticated"><router-link @click="navigate" :to="{ name: 'profile' }">{{ user.name }}</router-link></li>
+                  <li v-if="userIsAuthenticated"><a href="#" @click="onLogout">Logout</a></li>
                 </ul>
               </nav>
             </div>
@@ -44,7 +50,7 @@
                 <div class="col-md-7">
                   <h2>Préparez vous pour le meilleur entraînement<br>de<b> Votre vie !</b></h2>
                   <p><span>Le suivi sportif <i class="icon-heart3"></i> sur le bout de vos doigts</span></p>
-                  <span><a class="btn btn-primary" href="/suivi">Commencez votre aventure</a></span>
+                  <span><router-link :to="{ name: 'dashboard' }" class="btn btn-primary">Commencez votre aventure</router-link></span>
                 </div>
               </div>
             </div>
@@ -763,12 +769,20 @@
 
 <script>
 import '../fitness/js/jquery.min.js'
-import '../fitness/js/bootstrap.min.js'
+import 'jquery'
+import 'bootstrap'
+import bootstrap from 'bootstrap/dist/css/bootstrap2.css'
 export default {
   name: 'LayoutHome',
   data () {
     return {
+      loading: false
     }
+  },
+  mounted: function () {
+    this.$store.dispatch('getAllPost')
+    console.log(this.getAllPost)
+    this.loading = true
   },
   created () {
     // modernizer
@@ -803,14 +817,33 @@ export default {
     let main = document.createElement('script')
     main.setAttribute('src', 'fitness/js/main.js')
     document.head.appendChild(main)
+  },
+  computed: {
+    userIsAuthenticated () {
+      return this.$store.getters.user !== null && this.$store.getters.user !== undefined
+    },
+    user () {
+      return this.$store.getters.user
+    },
+    getLastPost: function () {
+      return this.$store.getters.post
+    }
+  },
+  methods: {
+    onLogout () {
+      this.$store.dispatch('logout')
+      this.$router.push('/')
+    },
+    navigate () {
+      bootstrap.unuse()
+    }
   }
 }
 </script>
 
-<style>
+<style scoped>
   @import '../fitness/css/animate.css';
   @import '../fitness/css/icomoon.css';
-  @import '../fitness/css/bootstrap.css';
   @import '../fitness/css/superfish.css';
   @import '../fitness/css/style.css';
 </style>
