@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <scheduler></scheduler>
+    <scheduler :user="user"></scheduler>
   </q-page>
 </template>
 
@@ -10,6 +10,9 @@ export default {
   name: 'PageScheduler',
   components: {
     Scheduler
+  },
+  user () {
+    return this.$store.getters.user
   }
 }
 </script>

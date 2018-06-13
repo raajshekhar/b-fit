@@ -9,7 +9,7 @@
                 :legend="legend"
                 :commonSeriesSettings="commonSeriesSettings"
                 :series="series"
-                :theme="theme"
+                theme="theme"
                 :tooltip="tooltip"
         >
         </dx-pie-chart>
@@ -60,8 +60,8 @@ export default {
         argumentField: 'Country',
         valueField: 'Import'
       }
-      ],
-      theme: 'generic.darkviolet'
+      ]
+      // theme: 'generic.darkviolet'
     }
   },
   methods: {

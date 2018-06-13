@@ -11,9 +11,9 @@
           icon="menu"
           @click="leftDrawer = !leftDrawer"
         />
-        <a href="">
+        <router-link :to="{ name: 'home' }">
           <img class="logo" alt="Bfit logo" src="~assets/bfit-logo-black.png">
-        </a>
+        </router-link>
         <q-toolbar-title to="/suivi">
           Suivi d'activité
           <span slot="subtitle">Dashboard / Planning / Performance</span>
@@ -49,7 +49,16 @@
     >
       <q-scroll-area class="fit q-pa-sm">
         <q-list no-border link inset-separator>
-          <q-list-header>Menu suivi</q-list-header>
+          <q-list-header>Mon compte</q-list-header>
+          <q-item to="/Auth/profile">
+            <q-item-side icon="account_circle" />
+            <q-item-main label="Profile" sublabel="Mon Profile" />
+          </q-item>
+          <q-item @click="onLogout">
+            <q-item-side icon="today" />
+            <q-item-main label="Logout" sublabel="Se déconnecter" />
+          </q-item>
+          <q-list-header>Mon suivi</q-list-header>
           <q-item to="/suivi/dashboard">
             <q-item-side icon="dashboard" />
             <q-item-main label="Dashbord" sublabel="Accéder a votre tableau de bord" />
@@ -58,10 +67,24 @@
             <q-item-side icon="today" />
             <q-item-main label="Planning" sublabel="Plannifier vos seances" />
           </q-item>
-          <q-item to="/suivi/performance">
-            <q-item-side icon="trending_up" />
-            <q-item-main label="Performance" sublabel="Suivez vos performances" />
-          </q-item>
+            <q-collapsible group="somegroup" icon="trending_up" label="Performance" sublabel="Suivez vos performances">
+              <q-item to="/suivi/performance">
+                <q-item-side icon="trending_up" />
+                <q-item-main label="Performance" sublabel="" />
+            </q-item>
+            <q-item :to="{ name: 'addWorkout' }">
+              <q-item-side icon="trending_up" />
+              <q-item-main label="Data Input" sublabel="" />
+            </q-item>
+            <q-item to="/suivi/performance/muscle">
+              <q-item-side icon="trending_up" />
+              <q-item-main label="Muscle" sublabel="" />
+            </q-item>
+            <q-item to="/suivi/performance/objective">
+              <q-item-side icon="trending_up" />
+              <q-item-main label="Objectif" sublabel="" />
+            </q-item>
+            </q-collapsible>
         </q-list>
       </q-scroll-area>
     </q-layout-drawer>
@@ -79,6 +102,12 @@ export default {
   data () {
     return {
       leftDrawer: true
+    }
+  },
+  methods: {
+    onLogout () {
+      this.$store.dispatch('logout')
+      this.$router.push('/')
     }
   }
 }

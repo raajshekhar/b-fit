@@ -3,6 +3,7 @@
 ._DS_Store
 ._.DS_Store
 .thumbs.db
+package-lock.json
 node_modules
 /dist
 /src-cordova/platforms

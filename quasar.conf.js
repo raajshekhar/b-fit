@@ -4,7 +4,9 @@ module.exports = function (ctx) {
   return {
     // app plugins (/src/plugins)
     plugins: [
-      'axios'
+      'axios',
+      'vuelidate',
+      'firebase'
     ],
     css: [
       'app.styl'
@@ -35,19 +37,14 @@ module.exports = function (ctx) {
           loader: 'eslint-loader',
           exclude: /(node_modules|quasar)/
         }, {
-          test: /\.css$/,
-          use: [
-            { loader: 'style-loader' },
-            { loader: 'css-loader' }
-          ],
-          exclude: /(node_modules|quasar)/
+          test: /\.css$/, exclude: /(node_modules|quasar)/, loader: 'style-loader!css-loader'
         })
       }
     },
     devServer: {
       // https: true,
       // port: 8080,
-      open: true // opens browser window automatically
+      open: false // opens browser window automatically
     },
     // framework: 'all' --- includes everything; for dev only!
     framework: {
@@ -84,7 +81,16 @@ module.exports = function (ctx) {
         'QTimeline',
         'QTimelineEntry',
         'QInput',
-        'QProgress'
+        'QProgress',
+        'QCollapsible',
+        'QDatetimePicker',
+        'QDatetime',
+        'QField',
+        'QFab',
+        'QFabAction',
+        'QPageSticky',
+        'QRadio',
+        'QOptionGroup'
       ],
       directives: [
         'Ripple'
