@@ -30,8 +30,8 @@
                     <router-link :to="{ name: 'hot' }">Actualité</router-link>
                   </li>
                   <li><a href="#">À propos</a></li>
-                  <li v-if="!userIsAuthenticated"><router-link @click="navigate" :to="{ name: 'signup' }">Singn Up</router-link></li>
-                  <li v-if="!userIsAuthenticated"><router-link @click="navigate" :to="{ name: 'signin' }">Singn In</router-link></li>
+                  <li v-if="!userIsAuthenticated"><router-link @click="navigate" :to="{ name: 'signup' }">Sign Up</router-link></li>
+                  <li v-if="!userIsAuthenticated"><router-link @click="navigate" :to="{ name: 'signin' }">Sign In</router-link></li>
                   <li v-if="userIsAuthenticated"><router-link @click="navigate" :to="{ name: 'profile' }">{{ user.name }}</router-link></li>
                   <li v-if="userIsAuthenticated"><a href="#" @click="onLogout">Logout</a></li>
                 </ul>
@@ -87,34 +87,34 @@
                 <div class="schedule-content active" data-day="sunday">
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-dumbell.svg" alt="Cycling">
-                      <small>06AM-7AM</small>
-                      <h3>Renforcement</h3>
-                      <span>John Doe</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="abdo">
+                      <small>17h-19h</small>
+                      <h3>Abdominaux</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-yoga.svg" alt="">
-                      <small>06AM-7AM</small>
-                      <h3>Yoga</h3>
-                      <span>James Rémy</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Biceps et triceps</h3>
+                      <span>Thomas Ehya</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-cycling.svg" alt="">
-                      <small>06AM-7AM</small>
-                      <h3>Cyclisme</h3>
-                      <span>Rita Doe</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>16h-19h</small>
+                      <h3>Dos et épaule</h3>
+                      <span>Bénédict Bianchini</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-boxing.svg" alt="Cycling">
-                      <small>06AM-7AM</small>
-                      <h3>Boxing</h3>
-                      <span>John Dose</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>09h-10h</small>
+                      <h3>Jambes</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                 </div>
@@ -123,34 +123,34 @@
                 <div class="schedule-content" data-day="monday">
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-yoga.svg" alt="">
-                      <small>06AM-7AM</small>
-                      <h3>Yoga</h3>
-                      <span>James Smith</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>8h-11h</small>
+                      <h3>Pectorauts triceps</h3>
+                      <span>Thomas Ehya</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-dumbell.svg" alt="Cycling">
-                      <small>06AM-7AM</small>
-                      <h3>Body Building</h3>
-                      <span>John Doe</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Trapèzes et biceps </h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-boxing.svg" alt="Cycling">
-                      <small>06AM-7AM</small>
-                      <h3>Boxing</h3>
-                      <span>John Dose</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>10h-12h</small>
+                      <h3>Fessier</h3>
+                      <span>Benedict Bianchini</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-cycling.svg" alt="">
-                      <small>06AM-7AM</small>
-                      <h3>Cyclisme</h3>
-                      <span>Rita Doe</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Quadriceps et ischio-jambier</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
 
@@ -160,34 +160,34 @@
                 <div class="schedule-content" data-day="tuesday">
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-dumbell.svg" alt="Cycling">
-                      <small>06AM-7AM</small>
-                      <h3>Body Building</h3>
-                      <span>John Doe</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Full-body</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-yoga.svg" alt="">
-                      <small>06AM-7AM</small>
-                      <h3>Yoga</h3>
-                      <span>James Smith</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Half-body</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-cycling.svg" alt="">
-                      <small>06AM-7AM</small>
-                      <h3>Cycling Program</h3>
-                      <span>Rita Doe</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Repos</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-boxing.svg" alt="Cycling">
-                      <small>06AM-7AM</small>
-                      <h3>Boxing Fitness</h3>
-                      <span>John Dose</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Cuisse-fessier</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                 </div>
@@ -196,34 +196,34 @@
                 <div class="schedule-content" data-day="wednesday">
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-yoga.svg" alt="">
-                      <small>06AM-7AM</small>
-                      <h3>Yoga Programs</h3>
-                      <span>James Smith</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Endurence</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-dumbell.svg" alt="Cycling">
-                      <small>06AM-7AM</small>
-                      <h3>Body Building</h3>
-                      <span>John Doe</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Abdominaux</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-boxing.svg" alt="Cycling">
-                      <small>06AM-7AM</small>
-                      <h3>Boxing Fitness</h3>
-                      <span>John Dose</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Split</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-cycling.svg" alt="">
-                      <small>06AM-7AM</small>
-                      <h3>Cycling Program</h3>
-                      <span>Rita Doe</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Epaule</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                 </div>
@@ -232,34 +232,34 @@
                 <div class="schedule-content" data-day="thursday">
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-dumbell.svg" alt="Cycling">
-                      <small>06AM-7AM</small>
-                      <h3>Body Building</h3>
-                      <span>John Doe</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Bras / Sprint</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-yoga.svg" alt="">
-                      <small>06AM-7AM</small>
-                      <h3>Yoga Programs</h3>
-                      <span>James Smith</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Jambes et Abdos</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-cycling.svg" alt="">
-                      <small>06AM-7AM</small>
-                      <h3>Cycling Program</h3>
-                      <span>Rita Doe</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Repos</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-boxing.svg" alt="Cycling">
-                      <small>06AM-7AM</small>
-                      <h3>Boxing Fitness</h3>
-                      <span>John Dose</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Biceps/Triceps </h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                 </div>
@@ -268,34 +268,34 @@
                 <div class="schedule-content" data-day="friday">
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-yoga.svg" alt="">
-                      <small>06AM-7AM</small>
-                      <h3>Yoga Programs</h3>
-                      <span>James Smith</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Epaule et Jambes</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-dumbell.svg" alt="Cycling">
-                      <small>06AM-7AM</small>
-                      <h3>Body Building</h3>
-                      <span>John Doe</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Musculation</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-boxing.svg" alt="Cycling">
-                      <small>06AM-7AM</small>
-                      <h3>Boxing Fitness</h3>
-                      <span>John Dose</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Abdominaux</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-cycling.svg" alt="">
-                      <small>06AM-7AM</small>
-                      <h3>Cycling Program</h3>
-                      <span>Rita Doe</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Jambes</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                 </div>
@@ -304,34 +304,34 @@
                 <div class="schedule-content" data-day="saturday">
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-dumbell.svg" alt="Cycling">
-                      <small>06AM-7AM</small>
-                      <h3>Body Building</h3>
-                      <span>John Doe</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Full-body</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-yoga.svg" alt="">
-                      <small>06AM-7AM</small>
-                      <h3>Yoga Programs</h3>
-                      <span>James Smith</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Sprint</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-cycling.svg" alt="">
-                      <small>06AM-7AM</small>
-                      <h3>Cycling Program</h3>
-                      <span>Rita Doe</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Half-body</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <div class="program program-schedule">
-                      <img src="../fitness/images/fit-boxing.svg" alt="Cycling">
-                      <small>06AM-7AM</small>
-                      <h3>Boxing Fitness</h3>
-                      <span>John Dose</span>
+                      <img src="../fitness/images/fit-dumbell.svg" alt="Musculation">
+                      <small>17h-19h</small>
+                      <h3>Pectoraux</h3>
+                      <span>Rémy Jérôme</span>
                     </div>
                   </div>
                 </div>
@@ -358,7 +358,7 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <div class="heading-section text-center animate-box">
-                <h2>Les options de suivi</h2>
+                <h2>Nos futurs ajouts</h2>
                 <p>Le programme que vous voulez suivre, le suivi que <b>vous méritez</b>.</p>
               </div>
             </div>
@@ -367,7 +367,7 @@
             <div class="col-md-4 col-sm-6">
               <div class="program animate-box">
                 <img src="../fitness/images/fit-dumbell.svg" alt="Cycling">
-                <h3>Body Combat</h3>
+                <h3>Combat</h3>
                 <p>Discipline intensive qui s'inspire de mouvements d'arts martiaux de haut niveau comme le karaté, la boxe et le taekwendo.</p>
                 <span><a href="#" class="btn btn-default">Découvrir B-fit</a></span>
               </div>
@@ -375,7 +375,7 @@
             <div class="col-md-4 col-sm-6">
               <div class="program animate-box">
                 <img src="../fitness/images/fit-yoga.svg" alt="">
-                <h3>Yoga Program</h3>
+                <h3>Yoga</h3>
                 <p>Raffermir votre silhouette, gagner en souplesse et lâcher-prise, le yoga est parfait pour maintenir une pratique physique régulière.</p>
                 <span><a href="#" class="btn btn-default">Découvrir B-fit</a></span>
               </div>
@@ -383,7 +383,7 @@
             <div class="col-md-4 col-sm-6">
               <div class="program animate-box">
                 <img src="../fitness/images/fit-cycling.svg" alt="">
-                <h3>Cycling Program</h3>
+                <h3>Cyclisme</h3>
                 <p>Si vous voulez améliorer votre endurance et vous défouler, programmez votre prochaine séance de Cycling dès maintenant.</p>
                 <span><a href="#" class="btn btn-default">Découvrir B-fit</a></span>
               </div>
@@ -391,7 +391,7 @@
             <div class="col-md-4 col-sm-6">
               <div class="program animate-box">
                 <img src="../fitness/images/fit-boxing.svg" alt="Cycling">
-                <h3>Boxing Fitness</h3>
+                <h3>Boxe</h3>
                 <p>Activité de remise en forme qui combine training et apprentissage de mouvements de self-défense. Une alliance parfaite !</p>
                 <span><a href="#" class="btn btn-default">Découvrir B-fit</a></span>
               </div>
@@ -399,7 +399,7 @@
             <div class="col-md-4 col-sm-6">
               <div class="program animate-box">
                 <img src="../fitness/images/fit-swimming.svg" alt="">
-                <h3>Swimming Program</h3>
+                <h3>Natation</h3>
                 <p>Sport complet qui sollicite l'ensemble des muscles du corps, qui développe l'endurance, le souffle et qui apaise.</p>
                 <span><a href="#" class="btn btn-default">Découvrir B-fit</a></span>
               </div>
@@ -532,9 +532,9 @@
             <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 fh5co-table">
               <div class="fh5co-intro fh5co-table-cell box-area">
                 <div class="animate-box">
-                  <h1>Fitness Classes this summer</h1>
-                  <p>Pay now and get 25% Discount</p>
-                  <a href="#" class="btn btn-primary">Become A Member</a>
+                  <h1>Des offres exclusives pour les abonnés </h1>
+                  <p>Plus de contenu pour rester boosté !</p>
+                  <a href="#" class="btn btn-primary">Devenir membre</a>
                 </div>
               </div>
             </div>
@@ -546,83 +546,49 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <div class="heading-section text-center animate-box">
-                <h2>Pricing Plan</h2>
-                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                <h2>Tarif</h2>
+                <p>Un accès privilégié à notre communauté partout dans le monde</p>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="pricing">
               <div class="col-md-3 animate-box">
-                <div class="price-box animate-box">
-                  <h2 class="pricing-plan">Starter</h2>
-                  <div class="price"><sup class="currency">$</sup>9<small>/month</small></div>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                  <ul class="classes">
-                    <li>15 Cardio Classes</li>
-                    <li class="color">10 Swimming Lesson</li>
-                    <li>10 Yoga Classes</li>
-                    <li class="color">20 Aerobics</li>
-                    <li>10 Zumba Classes</li>
-                    <li class="color">5 Massage</li>
-                    <li>10 Body Building</li>
-                  </ul>
-                  <a href="#" class="btn btn-default">Select Plan</a>
-                </div>
               </div>
 
               <div class="col-md-3 animate-box">
                 <div class="price-box animate-box">
-                  <h2 class="pricing-plan">Basic</h2>
-                  <div class="price"><sup class="currency">$</sup>27<small>/month</small></div>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                  <h2 class="pricing-plan">Gratuit</h2>
+                  <div class="price"><sup class="currency">€</sup>0<small>/mois</small></div>
+                  <p>Accès à la fonction de prise de note et suivi de B-Fit</p>
                   <ul class="classes">
-                    <li>15 Cardio Classes</li>
-                    <li class="color">10 Swimming Lesson</li>
-                    <li>10 Yoga Classes</li>
-                    <li class="color">20 Aerobics</li>
-                    <li>10 Zumba Classes</li>
-                    <li class="color">5 Massage</li>
-                    <li>10 Body Building</li>
+                    <li>Prise de notes illimitée</li>
+                    <li class="color">Création illimitée de programme</li>
+                    <li>Suivi des exercices par muscle</li>
+                    <li class="color">Notifications</li>
                   </ul>
-                  <a href="#" class="btn btn-default">Select Plan</a>
+                  <a href="#" class="btn btn-default">S'inscrire</a>
                 </div>
               </div>
 
               <div class="col-md-3 animate-box">
                 <div class="price-box animate-box popular">
-                  <h2 class="pricing-plan pricing-plan-offer">Pro <span>Best Offer</span></h2>
-                  <div class="price"><sup class="currency">$</sup>74<small>/month</small></div>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                  <h2 class="pricing-plan pricing-plan-offer">Pro <span>Recommandé</span></h2>
+                  <div class="price"><sup class="currency">€</sup>9,99<small>/mois</small></div>
+                  <p>Accédez à la base de données et aux conseils de nos professionnels</p>
+                  <p style="font-size: 12px;"> <em>Tous les avantages de Gratuit +</em></p>
                   <ul class="classes">
-                    <li>15 Cardio Classes</li>
-                    <li class="color">10 Swimming Lesson</li>
-                    <li>10 Yoga Classes</li>
-                    <li class="color">20 Aerobics</li>
-                    <li>10 Zumba Classes</li>
-                    <li class="color">5 Massage</li>
-                    <li>10 Body Building</li>
+                    <li>Accès aux articles</li>
+                    <li class="color">Suivi personnalisé de la progression </li>
+                    <li>Partage d'excercice et de conseils</li>
+                    <li class="color">Planning d'excercices</li>
+                    <li>Ciblage de muscle</li>
                   </ul>
-                  <a href="#" class="btn btn-select-plan btn-sm">Select Plan</a>
+                  <a href="#" class="btn btn-select-plan btn-sm">Choisir ce plan</a>
                 </div>
               </div>
 
               <div class="col-md-3 animate-box">
-                <div class="price-box animate-box">
-                  <h2 class="pricing-plan">Unlimited</h2>
-                  <div class="price"><sup class="currency">$</sup>140<small>/month</small></div>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                  <ul class="classes">
-                    <li>15 Cardio Classes</li>
-                    <li class="color">10 Swimming Lesson</li>
-                    <li>10 Yoga Classes</li>
-                    <li class="color">20 Aerobics</li>
-                    <li>10 Zumba Classes</li>
-                    <li class="color">5 Massage</li>
-                    <li>10 Body Building</li>
-                  </ul>
-                  <a href="#" class="btn btn-default">Select Plan</a>
-                </div>
               </div>
             </div>
           </div>
@@ -644,68 +610,68 @@
                     <a href="#"><img class="img-responsive" src="../fitness/images/blog-1.jpg" alt=""></a>
                   </div>
                   <div class="desc">
-                    <h3><a href="#">Définir ses objectifs sportifs avec B-fit</a></h3>
+              <!--     <h3><a href="#">Définir ses objectifs sportifs avec B-fit</a></h3> -->
                     <span class="posted_by">Posted by: Claire</span>
-                    <span class="comment"><a href="">21<i class="icon-bubble22"></i></a></span>
-                    <p>Avec B-fit, programmez vos séances d'entraînement, fixez vos...</p>
-                    <a href="#" class="btn btn-default">Lire la suite</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12 col-md-offset-0">
-                <div class="fh5co-blog animate-box">
-                  <div class="inner-post">
-                    <a href="#"><img class="img-responsive" src="../fitness/images/blog-1.jpg" alt=""></a>
-                  </div>
-                  <div class="desc">
-                    <h3><a href="#">Présentation de l'application B-fit</a></h3>
-                    <span class="posted_by">Posted by: Claire</span>
-                    <span class="comment"><a href="">21<i class="icon-bubble22"></i></a></span>
-                    <p>B-fit est une application de suivi de vos performances sportives...</p>
-                    <a href="#" class="btn btn-default">Lire la suite</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="col-md-12">
-                <div class="heading-section animate-box">
-                  <h2>Évènements à venir</h2>
-                </div>
-              </div>
-              <div class="col-md-12 col-md-offset-0">
-                <div class="fh5co-blog animate-box">
-                  <div class="meta-date text-center">
-                    <p><span class="date">10</span><span>Sept.</span><span>2018</span></p>
-                  </div>
-                  <div class="desc desc2">
-                    <h3><a href="#">Inscrivez-vous à notre newsletter !</a></h3>
-                    <span class="posted_by">Posted by: Claire</span>
-                    <span class="comment"><a href="">21<i class="icon-bubble22"></i></a></span>
-                    <p>Pour suivre toute l'actualité B-fit et recevoir des offres exclusives, inscrivez-vous à notre newsletter...</p>
-                    <a href="#" class="btn btn-default">Lire la suite</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12 col-md-offset-0">
-                <div class="fh5co-blog animate-box">
-                  <div class="meta-date text-center">
-                    <p><span class="date">01</span><span>Sept.</span><span>2018</span></p>
-                  </div>
-                  <div class="desc desc2">
-                    <h3><a href="#">Lancement de l'application B-fit</a></h3>
-                    <span class="posted_by">Posted by: Claire</span>
-                    <span class="comment"><a href="">21<i class="icon-bubble22"></i></a></span>
-                    <p>Préparez-vous à suivre le meilleur entraînement de votre vie...</p>
-                    <a href="#" class="btn btn-default">Lire la suite</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- fh5co-blog-section -->
+                    <!--   <span class="comment"><a href="">21<i class="icon-bubble22"></i></a></span> -->
+                     <p>Avec B-fit, programmez vos séances d'entraînement, fixez vos...</p>
+                     <a href="#" class="btn btn-default">Lire la suite</a>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-md-12 col-md-offset-0">
+                 <div class="fh5co-blog animate-box">
+                   <div class="inner-post">
+                     <a href="#"><img class="img-responsive" src="../fitness/images/blog-1.jpg" alt=""></a>
+                   </div>
+                   <div class="desc">
+                     <h3><a href="#">Présentation de l'application B-fit</a></h3>
+                     <span class="posted_by">Posted by: Claire</span>
+                     <!-- <span class="comment"><a href="">21<i class="icon-bubble22"></i></a></span> -->
+                   <p>B-fit est une application de suivi de vos performances sportives...</p>
+                   <a href="#" class="btn btn-default">Lire la suite</a>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-6">
+             <div class="col-md-12">
+               <div class="heading-section animate-box">
+                <!-- <h2>Évènements à venir</h2> -->
+               </div>
+             </div>
+             <div class="col-md-12 col-md-offset-0">
+               <div class="fh5co-blog animate-box">
+                 <div class="inner-post">
+                   <a href="#"><img class="img-responsive" src="../fitness/images/blog-1.jpg" alt=""></a>
+                 </div>
+                 <div class="desc">
+                   <!--     <h3><a href="#">Définir ses objectifs sportifs avec B-fit</a></h3> -->
+                   <span class="posted_by">Posted by: Claire</span>
+                   <!--   <span class="comment"><a href="">21<i class="icon-bubble22"></i></a></span> -->
+                   <p>Avec B-fit, programmez vos séances d'entraînement, fixez vos...</p>
+                   <a href="#" class="btn btn-default">Lire la suite</a>
+                 </div>
+               </div>
+             </div>
+             <div class="col-md-12 col-md-offset-0">
+               <div class="fh5co-blog animate-box">
+                 <div class="inner-post">
+                   <a href="#"><img class="img-responsive" src="../fitness/images/blog-1.jpg" alt=""></a>
+                 </div>
+                 <div class="desc">
+                   <!--     <h3><a href="#">Définir ses objectifs sportifs avec B-fit</a></h3> -->
+                   <span class="posted_by">Posted by: Claire</span>
+                   <!--   <span class="comment"><a href="">21<i class="icon-bubble22"></i></a></span> -->
+                   <p>Avec B-fit, programmez vos séances d'entraînement, fixez vos...</p>
+                   <a href="#" class="btn btn-default">Lire la suite</a>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <!-- fh5co-blog-section -->
       <footer>
         <div id="footer">
           <div class="container">
