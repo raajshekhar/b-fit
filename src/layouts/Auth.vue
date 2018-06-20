@@ -49,7 +49,7 @@
             <q-item-side icon="account_circle" />
             <q-item-main label="Profile" sublabel="Mon Profile" />
           </q-item>
-          <q-item @click.prevent="onLogout" >
+          <q-item @click="onLogout()">
             <q-item-side icon="today" />
             <q-item-main label="Logout" sublabel="Se déconnecter" />
           </q-item>
@@ -58,24 +58,20 @@
             <q-item-side icon="dashboard" />
             <q-item-main label="Dashbord" sublabel="Accéder a votre tableau de bord" />
           </q-item>
-          <q-item to="/suivi/planning">
+          <q-item :to="{ name: 'planning' }">
             <q-item-side icon="today" />
             <q-item-main label="Planning" sublabel="Plannifier vos seances" />
           </q-item>
           <q-collapsible group="somegroup" icon="trending_up" label="Performance" sublabel="Suivez vos performances">
-            <q-item to="/suivi/performance">
+            <q-item :to="{ name: 'performance' }">
               <q-item-side icon="trending_up" />
               <q-item-main label="Performance" sublabel="" />
             </q-item>
-            <q-item to="/suivi/performance/input">
+            <q-item :to="{ name: 'addWorkout' }">
               <q-item-side icon="trending_up" />
               <q-item-main label="Data Input" sublabel="" />
             </q-item>
-            <q-item to="/suivi/performance/muscle">
-              <q-item-side icon="trending_up" />
-              <q-item-main label="Muscle" sublabel="" />
-            </q-item>
-            <q-item to="/suivi/performance/objective">
+            <q-item>
               <q-item-side icon="trending_up" />
               <q-item-main label="Objectif" sublabel="" />
             </q-item>
@@ -105,7 +101,7 @@ export default {
     }
   },
   methods: {
-    onLogout () {
+    onLogout: function () {
       this.$store.dispatch('logout')
       this.$router.push({ name: 'home' })
     }

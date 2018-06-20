@@ -10,7 +10,7 @@
 export default {
   name: 'PageProfile',
   computed: {
-    user () {
+    user: function () {
       return this.$store.getters.user
     }
   }
