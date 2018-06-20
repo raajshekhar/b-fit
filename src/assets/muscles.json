@@ -1,0 +1,77 @@
+{
+  "groupesmusculaires":[{
+    "groupeName": "membres inférieurs",
+    "muscles": [{
+      "name": "quadriceps",
+      "type": "xxx"
+    },
+      {
+        "name": "ischio-jambiers",
+        "type": "xxx"
+      },
+      {
+        "name": "mollets",
+        "type": "xxx"
+      },
+      {
+        "name": "fessiers",
+        "type": "xxx"
+      },
+      {
+        "name": "adducteurs",
+        "type": "xxx"
+      }]
+  },{
+    "groupeName": "membres supérieurs",
+    "muscles": [{
+      "name": "fléchisseurs des bras",
+      "type": "xxx"
+      },
+      {
+        "name": "extenseurs des bras",
+        "type": "xxx"
+      },
+      {
+        "name": "fléchisseurs des poignets",
+        "type": "xxx"
+      },
+      {
+        "name": "extenseurs des poignets",
+        "type": "xxx"
+      }]
+  },{
+    "groupeName": "paroi dorsale",
+    "muscles": [{
+      "name": "dorsaux",
+      "type": "xxx"
+    },
+      {
+        "name": "lombaires",
+        "type": "xxx"
+      }]
+  },{
+    "groupeName": "paroi abdominale",
+    "muscles": [{
+      "name": "abdominaux",
+      "type": "xxx"
+    }]
+  },{
+    "groupeName": "ceinture scapulaire",
+    "muscles": [{
+      "name": "pectoraux",
+      "type": "xxx"
+    },
+      {
+        "name": "trapèzes",
+        "type": "xxx"
+      },
+      {
+        "name": "épaules",
+        "type": "xxx"
+      },
+      {
+        "name": "fixateurs des omoplates",
+        "type": "xxx"
+      }]
+  }]
+}
