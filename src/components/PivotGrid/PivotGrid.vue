@@ -83,13 +83,6 @@ export default {
           summaryType: 'sum',
           format: 'currency',
           area: 'data'
-        }, {
-          caption: 'Repos',
-          dataField: 'repos',
-          dataType: 'number',
-          summaryType: 'sum',
-          area: 'data',
-          visible: false
         }],
         store: MuscleSuivi
       },

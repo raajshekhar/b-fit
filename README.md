@@ -1,55 +1,38 @@
 # B-Fit
 
-One Paragraph of project description goes here
+B-Fit est un projet de sivi sportif orienté musculation qui permet de suivre sa progression sur différents exercice et muscle suivant différents indicateurs.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Install required :
 
 ```
-Give examples
+Quasar cli
+Vue-cli
+node.js
 ```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
 
-Say what the step will be
 
 ```
-Give the example
-```
+git clone <url>
 
-And repeat
+cd b-fit/
 
-```
-until finished
-```
+npm i
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+cp src/fitness/css/bootstrap.css node_modules/bootstrap/dist/css/bootstrap2.css
 
 ```
-Give an example
-```
 
-### And coding style tests
-
-Explain what these tests test and why
+Running application
 
 ```
-Give an example
+quasar dev
 ```
 
 ## Deployment
