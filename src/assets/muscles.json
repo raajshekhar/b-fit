@@ -1,77 +1,93 @@
 {
-  "groupesmusculaires":[{
-    "groupeName": "membres inférieurs",
-    "muscles": [{
-      "name": "quadriceps",
-      "type": "xxx"
+  "groupesmusculaires": [
+    {
+      "groupeName": "membres inférieurs",
+      "membres inférieurs": [
+        {
+          "name": "quadriceps",
+          "fibre": "phasique"
+        },
+        {
+          "name": "ischio-jambiers",
+          "fibre": "tonique"
+        },
+        {
+          "name": "mollets",
+          "fibre": "phasique/tonique"
+        },
+        {
+          "name": "fessiers",
+          "fibre": "phasique"
+        },
+        {
+          "name": "adducteurs",
+          "fibre": "tonique"
+        }
+      ]
     },
-      {
-        "name": "ischio-jambiers",
-        "type": "xxx"
-      },
-      {
-        "name": "mollets",
-        "type": "xxx"
-      },
-      {
-        "name": "fessiers",
-        "type": "xxx"
-      },
-      {
-        "name": "adducteurs",
-        "type": "xxx"
-      }]
-  },{
-    "groupeName": "membres supérieurs",
-    "muscles": [{
-      "name": "fléchisseurs des bras",
-      "type": "xxx"
-      },
-      {
-        "name": "extenseurs des bras",
-        "type": "xxx"
-      },
-      {
-        "name": "fléchisseurs des poignets",
-        "type": "xxx"
-      },
-      {
-        "name": "extenseurs des poignets",
-        "type": "xxx"
-      }]
-  },{
-    "groupeName": "paroi dorsale",
-    "muscles": [{
-      "name": "dorsaux",
-      "type": "xxx"
+    {
+      "groupeName": "membres supérieurs",
+      "membres supérieurs": [
+        {
+          "name": "fléchisseurs des bras",
+          "fibre": "tonique"
+        },
+        {
+          "name": "extenseurs des bras",
+          "fibre": "phasique"
+        },
+        {
+          "name": "fléchisseurs des poignets",
+          "fibre": "xxx"
+        },
+        {
+          "name": "extenseurs des poignets",
+          "fibre": "xxx"
+        }
+      ]
     },
-      {
-        "name": "lombaires",
-        "type": "xxx"
-      }]
-  },{
-    "groupeName": "paroi abdominale",
-    "muscles": [{
-      "name": "abdominaux",
-      "type": "xxx"
-    }]
-  },{
-    "groupeName": "ceinture scapulaire",
-    "muscles": [{
-      "name": "pectoraux",
-      "type": "xxx"
+    {
+      "groupeName": "paroi dorsale",
+      "paroi dorsale": [
+        {
+          "name": "dorsaux",
+          "fibre": "xxx"
+        },
+        {
+          "name": "lombaires",
+          "fibre": "xxx"
+        }
+      ]
     },
-      {
-        "name": "trapèzes",
-        "type": "xxx"
-      },
-      {
-        "name": "épaules",
-        "type": "xxx"
-      },
-      {
-        "name": "fixateurs des omoplates",
-        "type": "xxx"
-      }]
-  }]
+    {
+      "groupeName": "paroi abdominale",
+      "paroi abdominale": [
+        {
+          "name": "abdominaux",
+          "fibre": "phasique"
+        }
+      ]
+    },
+    {
+      "groupeName": "ceinture scapulaire",
+      "ceinture scapulaire": [
+        {
+          "name": "pectoraux",
+          "fibre": "tonique"
+        },
+        {
+          "name": "trapèzes",
+          "fibre": "phasique/tonique"
+        },
+        {
+          "name": "épaules",
+          "fibre": "phasique/tonique"
+        },
+        {
+          "name": "fixateurs des omoplates",
+          "fibre": "xxx"
+        }
+      ]
+    }
+  ]
 }

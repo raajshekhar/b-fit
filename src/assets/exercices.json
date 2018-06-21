@@ -1,0 +1,26 @@
+{
+  "exercices": [
+    {
+      "name": "flexion alternée des avant-bras avec rotation du poignet et élévation des coudes",
+      "libelle":"Curls avec haltères",
+      "groupeName": [
+        "épaule",
+        "fléchiseurs des bras"
+      ]
+    },
+    {
+      "name": "flexion alternée des avant-bras à la barre, main en pronation",
+      "libelle":"Curl à la barre",
+      "groupeName": [
+        "fléchiseurs des bras"
+      ]
+    },
+    {
+      "name": "flexion alternée des avant-bras à la barre, main en pronation",
+      "libelle":"Curl à la barre",
+      "groupeName": [
+        "fléchiseurs des bras"
+      ]
+    }
+  ]
+}

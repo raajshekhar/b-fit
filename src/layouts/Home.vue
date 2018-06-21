@@ -11,10 +11,10 @@
               <nav id="fh5co-menu-wrap" role="navigation">
                 <ul class="sf-menu" id="fh5co-primary-menu">
                   <li class="active">
-                    <a to="/" href="#">Accueil</a>
+                    <router-link :to="{ name: 'home' }">Accueil</router-link>
                   </li>
                   <li>
-                    <a  href="/suivi" class="fh5co-sub-ddown">Mon suivi</a>
+                    <router-link :to="{ name: 'dashboard' }">Mon suivi</router-link>
                     <ul class="fh5co-sub-menu">
                       <li><router-link :to="{ name: 'dashboard' }">Tableau de bord</router-link></li>
                       <li><router-link :to="{ name: 'planning' }">Planning</router-link></li>
@@ -27,9 +27,9 @@
                     <router-link :to="{ name: 'hot' }">Actualité</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'hot' }">Actualité</router-link>
+                    <router-link :to="{ name: 'about' }">A propos</router-link>
                   </li>
-                  <li><a href="#">À propos</a></li>
+                  <li><router-link :to="{ name: 'contact' }">Contact</router-link></li>
                   <li v-if="!userIsAuthenticated"><router-link @click="navigate" :to="{ name: 'signup' }">Sign Up</router-link></li>
                   <li v-if="!userIsAuthenticated"><router-link @click="navigate" :to="{ name: 'signin' }">Sign In</router-link></li>
                   <li v-if="userIsAuthenticated"><router-link @click="navigate" :to="{ name: 'profile' }">{{ user.name }}</router-link></li>

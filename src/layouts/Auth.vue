@@ -71,7 +71,7 @@
               <q-item-side icon="trending_up" />
               <q-item-main label="Data Input" sublabel="" />
             </q-item>
-            <q-item>
+            <q-item >
               <q-item-side icon="trending_up" />
               <q-item-main label="Objectif" sublabel="" />
             </q-item>

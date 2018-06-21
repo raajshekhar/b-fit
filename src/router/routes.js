@@ -21,6 +21,16 @@ export default [
     name: 'home'
   },
   {
+    path: '/about',
+    component: () => import('layouts/About'),
+    name: 'about'
+  },
+  {
+    path: '/contact',
+    component: () => import('layouts/Contact'),
+    name: 'contact'
+  },
+  {
     path: '/hot',
     component: () => import('layouts/Suivi'),
     children: [

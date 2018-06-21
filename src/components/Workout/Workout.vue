@@ -2,7 +2,7 @@
     <div>
       <q-stepper ref="stepper">
         <!-- Step: -->
-        <q-step default title="First Step" subtitle="Workout">
+        <q-step default title="Step 1" subtitle="Workout">
           <q-toggle v-model="check2" color="secondary" label="New workout ?" />
           <q-datetime color="secondary" v-model="date6" type="datetime" float-label="Date & Time" inverted/>
           <div v-if="check2">

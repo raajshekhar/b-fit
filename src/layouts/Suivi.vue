@@ -21,8 +21,7 @@
       </q-toolbar>
       <q-tabs>
         <q-route-tab slot="title" icon="home" to="/" replace hide="icon" label="Home" />
-        <q-route-tab slot="title" icon="fitness_center" to="/suivi" replace hide="icon" label="Suivi d'activité" />
-        <q-route-tab slot="title" icon="directions_run" to="/anatomie" replace hide="icon" label="Anatomie" />
+        <q-route-tab slot="title" icon="fitness_center" :to="{ name:'dashboard' }" replace hide="icon" label="Suivi d'activité" />
         <q-route-tab slot="title" icon="whatshot" to="/hot" replace label="Actualité" />
       </q-tabs>
     </q-layout-header>
