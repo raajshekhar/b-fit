@@ -1,5 +1,5 @@
 <template>
-  <div id="fh5co-wrapper" class="home_style home_bootstrap">
+  <div id="fh5co-wrapper" class="home_bootstrap home_animate home_icomoon home_superfish home_style">
     <div id="fh5co-page">
       <div id="fh5co-header">
         <header id="fh5co-header-section">
@@ -734,11 +734,13 @@
 </template>
 
 <script>
-import '../fitness/js/jquery.min.js'
+// import '../fitness/js/jquery.min.js'
 import 'jquery'
 import './../css/home_bootstrap.scss'
 import './../css/home_animate.scss'
-import './../css/home_icomoon.scss'
+// import './../fitness/css/animate.css'
+// import './../css/home_icomoon.scss'
+import './../fitness/css/icomoon.css'
 import './../css/home_superfish.scss'
 import './../css/home_style.scss'
 export default {
@@ -804,7 +806,4 @@ export default {
 </script>
 
 <style scoped>
-  @import '../fitness/css/animate.css';
-  @import '../fitness/css/icomoon.css';
-  @import '../fitness/css/superfish.css';
 </style>
