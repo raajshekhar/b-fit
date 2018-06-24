@@ -1,5 +1,5 @@
 <template>
-  <div id="fh5co-wrapper q-app">
+  <div id="fh5co-wrapper" class="home_style home_bootstrap">
     <div id="fh5co-page">
       <div id="fh5co-header">
         <header id="fh5co-header-section">
@@ -736,11 +736,11 @@
 <script>
 import '../fitness/js/jquery.min.js'
 import 'jquery'
-import './../fitness/css/bootstrap.css'
-import './../fitness/css/animate.css'
-import './../fitness/css/icomoon.css'
-import './../fitness/css/superfish.css'
-import './../fitness/css/style.css'
+import './../css/home_bootstrap.scss'
+import './../css/home_animate.scss'
+import './../css/home_icomoon.scss'
+import './../css/home_superfish.scss'
+import './../css/home_style.scss'
 export default {
   name: 'LayoutHome',
   data () {
@@ -804,13 +804,7 @@ export default {
 </script>
 
 <style scoped>
-  body {
-    font-family: "Roboto", Arial, sans-serif;
-    line-height: 1.8;
-    font-size: 16px;
-    background: #fff;
-    color: #848484;
-    font-weight: 300;
-    overflow-x: hidden;
-  }
+  @import '../fitness/css/animate.css';
+  @import '../fitness/css/icomoon.css';
+  @import '../fitness/css/superfish.css';
 </style>
