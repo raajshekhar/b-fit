@@ -1,5 +1,5 @@
 <template>
-  <div id="fh5co-wrapper ">
+  <div id="fh5co-wrapper q-app">
     <div id="fh5co-page">
       <div id="fh5co-header">
         <header id="fh5co-header-section">
@@ -736,8 +736,11 @@
 <script>
 import '../fitness/js/jquery.min.js'
 import 'jquery'
-import 'bootstrap'
-import bootstrap from 'bootstrap/dist/css/bootstrap2.css'
+import './../fitness/css/bootstrap.css'
+import './../fitness/css/animate.css'
+import './../fitness/css/icomoon.css'
+import './../fitness/css/superfish.css'
+import './../fitness/css/style.css'
 export default {
   name: 'LayoutHome',
   data () {
@@ -759,10 +762,6 @@ export default {
     let easing = document.createElement('script')
     easing.setAttribute('src', 'fitness/js/jquery.easing.1.3.js')
     document.head.appendChild(easing)
-    // bootstrap
-    // let bootstrap = document.createElement('script')
-    // bootstrap.setAttribute('src', 'fitness/js/bootstrap.min.js')
-    // document.head.appendChild(bootstrap)
     // waypoints
     let waypoints = document.createElement('script')
     waypoints.setAttribute('src', 'fitness/js/jquery.waypoints.min.js')
@@ -799,17 +798,19 @@ export default {
     onLogout () {
       this.$store.dispatch('logout')
       this.$router.push('/')
-    },
-    navigate () {
-      bootstrap.unuse()
     }
   }
 }
 </script>
 
 <style scoped>
-  @import '../fitness/css/animate.css';
-  @import '../fitness/css/icomoon.css';
-  @import '../fitness/css/superfish.css';
-  @import '../fitness/css/style.css';
+  body {
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+    background: #fff;
+    color: #848484;
+    font-weight: 300;
+    overflow-x: hidden;
+  }
 </style>
