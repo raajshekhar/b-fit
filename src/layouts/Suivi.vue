@@ -20,9 +20,11 @@
         </q-toolbar-title>
       </q-toolbar>
       <q-tabs>
-        <q-route-tab slot="title" icon="home" to="/" replace hide="icon" label="Home" />
+        <q-route-tab slot="title" icon="home" :to="{ name:'home' }" replace hide="icon" label="Home" />
         <q-route-tab slot="title" icon="fitness_center" :to="{ name:'dashboard' }" replace hide="icon" label="Suivi d'activité" />
-        <q-route-tab slot="title" icon="whatshot" to="/hot" replace label="Actualité" />
+        <q-route-tab slot="title" icon="whatshot" :to="{ name:'hot' }" replace hide="icon" label="Actualité" />
+        <q-route-tab slot="title" icon="email" :to="{ name:'about' }" replace hide="icon" label="A propos" />
+        <q-route-tab slot="title" icon="people" :to="{ name:'contact' }" replace hide="icon" label="Contact" />
       </q-tabs>
     </q-layout-header>
 

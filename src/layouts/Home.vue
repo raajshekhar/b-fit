@@ -738,7 +738,6 @@
 import 'jquery'
 import './../css/home_bootstrap.scss'
 import './../css/home_animate.scss'
-// import './../fitness/css/animate.css'
 // import './../css/home_icomoon.scss'
 import './../fitness/css/icomoon.css'
 import './../css/home_superfish.scss'

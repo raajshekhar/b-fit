@@ -45,9 +45,8 @@ export default [
       { path: 'signin', component: () => import('pages/Signin'), name: 'signin' },
       { path: 'signup', component: () => import('pages/Signup'), name: 'signup' }
     ]
-    // beforeEnter: AuthGuard
   },
-  { // Always leave this as last one
+  {
     path: '*',
     component: () => import('pages/404')
   }
