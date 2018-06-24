@@ -1,5 +1,5 @@
 <template>
-  <div id="fh5co-wrapper ">
+  <div id="fh5co-wrapper" class="home_style home_bootstrap">
     <div id="fh5co-page">
       <div id="fh5co-header">
         <header id="fh5co-header-section">
@@ -736,8 +736,11 @@
 <script>
 import '../fitness/js/jquery.min.js'
 import 'jquery'
-import 'bootstrap'
-import bootstrap from 'bootstrap/dist/css/bootstrap2.css'
+import './../css/home_bootstrap.scss'
+import './../css/home_animate.scss'
+import './../css/home_icomoon.scss'
+import './../css/home_superfish.scss'
+import './../css/home_style.scss'
 export default {
   name: 'LayoutHome',
   data () {
@@ -799,9 +802,6 @@ export default {
     onLogout () {
       this.$store.dispatch('logout')
       this.$router.push('/')
-    },
-    navigate () {
-      bootstrap.unuse()
     }
   }
 }
@@ -811,5 +811,4 @@ export default {
   @import '../fitness/css/animate.css';
   @import '../fitness/css/icomoon.css';
   @import '../fitness/css/superfish.css';
-  @import '../fitness/css/style.css';
 </style>
