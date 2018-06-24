@@ -55,7 +55,7 @@
             <q-item-side icon="account_circle" />
             <q-item-main label="Profile" sublabel="Mon Profile" />
           </q-item>
-          <q-item @click="onLogout()">
+          <q-item @click.native="onLogout()">
             <q-item-side icon="today" />
             <q-item-main label="Logout" sublabel="Se déconnecter" />
           </q-item>
@@ -103,6 +103,7 @@ export default {
   },
   methods: {
     onLogout: function () {
+      alert('test')
       this.$store.dispatch('logout')
       this.$router.push({ name: 'home' })
     }
