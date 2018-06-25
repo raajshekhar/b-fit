@@ -4,6 +4,8 @@ import Vuex from 'vuex'
 import user from './user'
 import shared from './shared'
 import post from './post'
+import exercice from './exercice'
+import workout from './workout'
 
 Vue.use(Vuex)
 
@@ -11,7 +13,9 @@ const store = new Vuex.Store({
   modules: {
     user,
     shared,
-    post
+    post,
+    exercice,
+    workout
   }
 })
 

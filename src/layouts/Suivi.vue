@@ -103,7 +103,6 @@ export default {
   },
   methods: {
     onLogout: function () {
-      alert('test')
       this.$store.dispatch('logout')
       this.$router.push({ name: 'home' })
     }

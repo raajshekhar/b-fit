@@ -1,33 +1,24 @@
 <template>
     <div>
-      <q-stepper ref="stepper">
+      <q-stepper ref="stepper" v-if="loading">
         <!-- Step: -->
         <q-step default title="Step 1" subtitle="Workout">
-          <q-toggle v-model="check2" color="secondary" label="New workout ?" />
-          <q-datetime color="secondary" v-model="date6" type="datetime" float-label="Date & Time" inverted/>
-          <div v-if="check2">
+          <q-toggle v-model="check" color="secondary" label="New workout ?" />
+          <q-datetime color="secondary" v-model="date" type="datetime" float-label="Date & Time" inverted/>
+          <div v-if="check">
             <p class="q-display-2 text-center text-secondary">New Workout</p>
-            <q-input color="secondary" v-model="text" float-label="Float label & placeholder" placeholder="Placeholder"/>
+            <q-input color="secondary" v-model="workoutName" float-label="Float label & placeholder" placeholder="Placeholder"/>
           </div>
-          <div v-if="!check2">
+          <div v-else>
             <p class="q-display-2 text-center text-secondary">My Workout</p>
             <q-list link>
-              <q-item tag="label">
+              <q-item tag="label" v-for="workout in getAllWorkout" :key="workout.id" >
                 <q-item-side>
-                  <q-radio color="secondary" v-model="list" val="one" />
+                  <q-radio color="secondary" v-model="list" :val="workout" />
                 </q-item-side>
                 <q-item-main>
-                  <q-item-tile label>Push Up Routine</q-item-tile>
-                  <q-item-tile sublabel>Diamond push up, Regular push up, Decline push up</q-item-tile>
-                </q-item-main>
-              </q-item>
-              <q-item tag="label">
-                <q-item-side>
-                  <q-radio color="secondary" v-model="list" val="two" />
-                </q-item-side>
-                <q-item-main>
-                  <q-item-tile label>Pull Up Routine</q-item-tile>
-                  <q-item-tile sublabel>Pull Up, Pull Up Army, Pull Up army</q-item-tile>
+                  <q-item-tile label>{{ workout.workoutName }}</q-item-tile>
+                  <q-item-tile sublabel > <span v-for="exercice in workout.exercices" :key="exercice.id">{{ exercice.workoutName }} </span></q-item-tile>
                 </q-item-main>
               </q-item>
             </q-list>
@@ -36,15 +27,16 @@
         <!-- Step: -->
         <q-step title="Step 2" subtitle="Exercices">
           <q-select
+            filter
             multiple
             chips
             color="secondary"
             float-label="Pick Exercice"
-            v-model="multipleSelect"
-            :options="exerciceOption"
+            v-model="exercices"
+            :options="getAllExercice"
           />
           <q-list>
-            <q-item v-if="multipleSelect.length != 0" tag="label" v-for="exercice in multipleSelect" :key="exercice.id">
+            <q-item v-if="exercices.length != 0" tag="label" v-for="exercice in exercices" :key="exercice.id">
               <q-item-main>
                 <q-item-tile label>{{ exercice }}</q-item-tile>
               </q-item-main>
@@ -63,6 +55,10 @@
             @click="$refs.stepper.next()"
             label="Next"
           />
+          <q-btn
+            @click="addWorkout"
+            label="Save"
+          />
         </q-stepper-navigation>
       </q-stepper>
 
@@ -78,8 +74,10 @@ const { startOfDate, addToDate, subtractFromDate } = date
 export default {
   data () {
     return {
-      check2: false,
-      date6: null,
+      workoutName: '',
+      loading: false,
+      check: false,
+      date: null,
       lazy: null,
       error: true,
       warning: false,
@@ -93,44 +91,8 @@ export default {
       radio3: 'three',
       group: 'upload',
       list: '',
-      exerciceOption: [
-        {
-          id: 1,
-          label: 'Google',
-          icon: 'email',
-          value: 'goog'
-        },
-        {
-          id: 2,
-          label: 'Facebook',
-          icon: 'chat',
-          description: 'Enables communication',
-          value: 'fb'
-        },
-        {
-          id: 3,
-          label: 'Twitter',
-          inset: true,
-          rightIcon: 'live_help',
-          value: 'twtr'
-        },
-        {
-          id: 4,
-          label: 'Apple Inc.',
-          inset: true,
-          stamp: '10 min',
-          value: 'appl'
-        },
-        {
-          id: 5,
-          label: 'Oracle',
-          description: 'Some Java for today?',
-          icon: 'unarchive',
-          rightIcon: 'widgets',
-          value: 'ora'
-        }
-      ],
-      multipleSelect: ['goog', 'twtr']
+      exerciceOption: this.getAllExercice,
+      exercices: []
     }
   },
   watch: {
@@ -156,9 +118,41 @@ export default {
     }
   },
   methods: {
-    alert () {
-      alert('test')
+    addWorkout () {
+      console.log({
+        workoutName: this.workoutName,
+        date: this.date,
+        exercices: this.exercices
+      })
+      this.$store.dispatch('addWorkout', {
+        workoutName: this.workoutName,
+        date: this.date,
+        exercices: this.exercices
+      })
     }
+  },
+  computed: {
+    getSelectWorkout: function () {
+      let tmp = []
+      if (!this.check) {
+        tmp = this.list.exercices
+      } else {
+        tmp = []
+      }
+      return tmp
+    },
+    getAllWorkout: function () {
+      return this.$store.getters.workout
+    },
+    getAllExercice: function () {
+      return this.$store.getters.exercice
+    }
+  },
+  mounted: function () {
+    this.$store.dispatch('getAllWorkout')
+    this.$store.dispatch('getAllExercice')
+    // console.log(this.getAllExercice)
+    this.loading = true
   }
 }
 </script>

@@ -1,26 +1,201 @@
 {
   "exercices": [
     {
+      "value": "Curls avec haltères",
       "name": "flexion alternée des avant-bras avec rotation du poignet et élévation des coudes",
-      "libelle":"Curls avec haltères",
+      "label":"Curls avec haltères",
       "groupeName": [
         "épaule",
         "fléchiseurs des bras"
       ]
     },
     {
+      "value": "Curl à la barre",
       "name": "flexion alternée des avant-bras à la barre, main en pronation",
-      "libelle":"Curl à la barre",
+      "label":"Curl à la barre",
       "groupeName": [
         "fléchiseurs des bras"
       ]
     },
     {
-      "name": "flexion alternée des avant-bras à la barre, main en pronation",
-      "libelle":"Curl à la barre",
+      "value": "Triceps poulie haute",
+      "name": "triceps à la poulie haute, mains en pronation",
+      "label":"Triceps poulie haute",
       "groupeName": [
+        "extenseurs des bras"
+      ]
+    },
+    {
+      "value": "Dips",
+      "name": "répulsion entre deux bancs",
+      "label":"Dips",
+      "groupeName": [
+        "extenseurs des bras",
+        "pectoraux"
+      ]
+    },
+    {
+      "value": "Développé assis",
+      "name": "développé assis avec haltères",
+      "label":"développé assis",
+      "groupeName": [
+        "épaules"
+      ]
+    },
+    {
+      "value": "Rowing vertical",
+      "name": "tirage vertical à la barre, mains écartées",
+      "label":"rowing vertical",
+      "groupeName": [
+        "épaules",
+        "trapèzes",
+        "fléchisseurs des bras"
+      ]
+    },
+    {
+      "value": "Développé-couché",
+      "name": "développé-couché",
+      "label":"développé-couché",
+      "groupeName": [
+        "épaules",
+        "péctoraux",
+        "extenseurs des bras"
+      ]
+    },
+    {
+      "value": "Développé-couché haltères",
+      "name": "développé-couché avec haltères",
+      "label":"développé-couché haltères",
+      "groupeName": [
+        "épaules",
+        "péctoraux",
+        "extenseurs des bras"
+      ]
+    },
+    {
+      "value": "Tirage poitrine",
+      "name": "tirage-poitrine à la poulie haute",
+      "label":"tirage poitrine",
+      "groupeName": [
+        "dorsaux",
         "fléchiseurs des bras"
       ]
+    },
+    {
+      "value": "Tirage horizontal",
+      "name": "tirage horizontal à la barre",
+      "label":"tirage horizontal",
+      "groupeName": [
+        "trapèzes",
+        "dorsaux",
+        "fléchisseurs des bras",
+        "épaules",
+        "lombaires"
+      ]
+    },
+    {
+      "value": "Soulevé de terre",
+      "name": "soulevé de terre",
+      "label": "soulevé de terre",
+      "groupeName": [
+        "trapèzes",
+        "dorsaux",
+        "fléchisseurs des bras",
+        "lombaires",
+        "quadriceps",
+        "fessiers",
+        "fléchisseurs des poignets",
+        "abdominaux",
+        "fixateurs des homoplates"
+      ]
+    },
+    {
+      "value": "Squat",
+      "name": "squat",
+      "label": "squat",
+      "groupeName": [
+        "quadriceps",
+        "fessiers",
+        "adducteurs",
+        "ischio-jambiers",
+        "lombaires"
+      ]
+    },
+    {
+      "value": "Presse à cuisses",
+      "name": "presse à cuisses inclinée",
+      "label": "presse à cuisses",
+      "groupeName": [
+        "quadriceps",
+        "fessiers",
+        "adducteurs",
+        "ischio-jambiers"
+      ]
+    },
+    {
+      "value": "Extenssion des jambes",
+      "name": "extenssion des jambes à la machine",
+      "label": "extenssion des jambes",
+      "groupeName": [
+        "quadriceps"
+      ]
+    },
+    {
+      "value": "Fente avant",
+      "name": "fente avant avec haltères",
+      "label": "fente avant",
+      "groupeName": [
+        "quadriceps",
+        "fessiers"
+      ]
+    },
+    {
+      "value": "Crunch",
+      "name": "enroulement vertébral",
+      "label": "crunch",
+      "groupeName": [
+        "quadriceps",
+        "abdominaux"
+      ]
+    },
+    {
+      "value": "Relevé de jambes",
+      "name": "relevé de jambes, suspendu à la barre",
+      "label": "relevé de jambes",
+      "groupeName": [
+        "quadriceps",
+        "abdominaux"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Title 1",
+      "author": "Author 1",
+      "date": "01/06/2018",
+      "content": "Content 1"
+    },
+    {
+      "id": 2,
+      "title": "Title 2",
+      "author": "Author 2",
+      "date": "02/06/2018",
+      "content": "Content 2"
+    },
+    {
+      "id": 3,
+      "title": "Title 3",
+      "author": "Author 3",
+      "date": "03/06/2018",
+      "content": "Content 3"
+    },
+    {
+      "id": 1,
+      "title": "Title 4",
+      "author": "Author 4",
+      "date": "04/06/2018",
+      "content": "Content 4"
     }
   ]
 }
