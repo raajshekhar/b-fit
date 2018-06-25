@@ -2,13 +2,13 @@
   <q-page padding>
     <div>
       <q-list separator>
-      <q-collapsible letter="Bienvenue" right-avatar="statics/boy-avatar.png" label="Pseudo">
+      <q-collapsible letter="Bienvenue" right-avatar="statics/boy-avatar.png" :label="user.name">
         <div>
           <section class="bg-secondary">
-          <h4 class="q-title"><b >Nom :</b> {{ user.name }}</h4>
+          <h4 class="q-title"><b >Votre pseudo :</b> {{ user.name }}</h4>
         </section>
           <section class="bg-warning">
-            <h4 class="q-title" ><b >Email :</b> {{ user.email }}</h4>
+            <h4 class="q-title" ><b >Votre email :</b> {{ user.email }}</h4>
           </section>
           <div>
             <q-uploader color="secondary" :url="url" />
