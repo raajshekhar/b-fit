@@ -2,7 +2,7 @@
   <q-page padding>
     <div>
       <q-list separator>
-      <q-collapsible letter="Bienvenue" right-avatar="statics/boy-avatar.png" :label="user.name">
+      <q-collapsible letter="Bienvenue" :right-avatar="user.photoUrl" :label="user.name">
         <div>
           <section class="bg-secondary">
           <h4 class="q-title"><b >Votre pseudo :</b> {{ user.name }}</h4>
