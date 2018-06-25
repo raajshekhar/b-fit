@@ -103,7 +103,14 @@ module.exports = function (ctx) {
         'QOptionGroup',
         'QStepper',
         'QStep',
-        'QStepperNavigation'
+        'QStepperNavigation',
+        'QUploader',
+        'QCard',
+        'QCardTitle',
+        'QCardMain',
+        'QCardMedia',
+        'QCardSeparator',
+        'QCardActions'
       ],
       directives: [
         'Ripple'
