@@ -52,7 +52,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     section{
         color: #ffffff;
         border-radius: 3px;

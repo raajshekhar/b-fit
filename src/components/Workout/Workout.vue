@@ -36,7 +36,7 @@
             :options="getAllExercice"
           />
           <q-list>
-            <q-item v-if="exercices.length != 0" tag="label" v-for="exercice in exercices" :key="exercice.id">
+            <q-item tag="label" v-for="exercice in exercices" :key="exercice">
               <q-item-main>
                 <q-item-tile label>{{ exercice }}</q-item-tile>
               </q-item-main>
@@ -92,7 +92,7 @@ export default {
       group: 'upload',
       list: '',
       exerciceOption: this.getAllExercice,
-      exercices: []
+      newExercice: []
     }
   },
   watch: {
@@ -132,14 +132,8 @@ export default {
     }
   },
   computed: {
-    getSelectWorkout: function () {
-      let tmp = []
-      if (!this.check) {
-        tmp = this.list.exercices
-      } else {
-        tmp = []
-      }
-      return tmp
+    exercices: function () {
+      return !this.check ? this.list.exercices : this.newExercice
     },
     getAllWorkout: function () {
       return this.$store.getters.workout
